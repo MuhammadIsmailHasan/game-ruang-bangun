@@ -1,29 +1,6 @@
 @extends('layouts.frontend')
 
 @section('content')
-
-    {{-- <section id="materi-2" style="padding: 100px 30px 30px 30px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center" style="margin-top: 20px;">
-                    <h2>MATERI</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h4 class="card-title">Penyajian Data dalam Diagram Lingkaran</h4>
-                        <p class="card-text">Diagram lingkaran merupakan diagram data berbentuk lingkaran yang terdiri dari beberapa bagian (juring).</p>
-                        <img src="{{ asset('img/materi/100.png') }}" alt="diagram 1" class="img-responsive img-bordered">
-                        <p class="card-text after-img">Besar juring disesuaikan dengan besar persentase ataupun besar sudut setiap data. </p>
-                        <img src="{{ asset('img/materi/200.png') }}" alt="diagram 1" class="img-responsive img-bordered">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    --}}
     <div class="container" style="padding: 100px 30px 30px 30px;">
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 20px;">
@@ -65,6 +42,7 @@
             </div>
             <div class="col-md-10">
                 <div class="profile-content">
+
                     {{-- KUBUS --}}
                     <nav id="kubus" class="content">
                         <div id="kubus-1" class="kubus-content">
@@ -245,7 +223,7 @@
                         </div>
 
                         <hr style="margin: 0;">
-                        <nav aria-label="Page navigation example" class="halaman">
+                        <nav aria-label="Page navigation example" class="halaman text-center">
                             <ul class="pagination pg-blue" id="kubus-content">
                                 <li class="page-item active" data-jenis="kubus-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="kubus-2"><a class="page-link">2</a></li>
@@ -443,7 +421,7 @@
 
 
                         <hr style="margin: 0;">
-                        <nav aria-label="Page navigation example" class="halaman">
+                        <nav aria-label="Page navigation example" class="halaman text-center">
                             <ul class="pagination pg-blue" id="balok-content">
                                 <li class="page-item active" data-jenis="balok-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="balok-2"><a class="page-link">2</a></li>
@@ -648,7 +626,7 @@
 
 
                         <hr style="margin: 0;">
-                        <nav aria-label="Page navigation example" class="halaman">
+                        <nav aria-label="Page navigation example" class="halaman text-center">
                             <ul class="pagination pg-blue" id="prisma-content">
                                 <li class="page-item active" data-jenis="prisma-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="prisma-2"><a class="page-link">2</a></li>
@@ -790,7 +768,7 @@
                         </div>
 
                         <hr style="margin: 0;">
-                        <nav aria-label="Page navigation example" class="halaman">
+                        <nav aria-label="Page navigation example" class="halaman text-center">
                             <ul class="pagination pg-blue" id="limas-content">
                                 <li class="page-item active" data-jenis="limas-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="limas-2"><a class="page-link">2</a></li>
@@ -909,7 +887,7 @@
                         </div>
 
                         <hr style="margin: 0;">
-                        <nav aria-label="Page navigation example" class="halaman">
+                        <nav aria-label="Page navigation example" class="halaman text-center">
                             <ul class="pagination pg-blue" id="kerucut-content">
                                 <li class="page-item active" data-jenis="kerucut-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="kerucut-2"><a class="page-link">2</a></li>
@@ -1051,7 +1029,7 @@
                         </div>
 
                         <hr style="margin: 0;">
-                        <nav aria-label="Page navigation example" class="halaman">
+                        <nav aria-label="Page navigation example" class="halaman text-center">
                             <ul class="pagination pg-blue" id="tabung-content">
                                 <li class="page-item active" data-jenis="tabung-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="tabung-2"><a class="page-link">2</a></li>
@@ -1252,7 +1230,7 @@
 
 
                         <hr style="margin: 0;">
-                        <nav aria-label="Page navigation example" class="halaman">
+                        <nav aria-label="Page navigation example" class="halaman text-center">
                             <ul class="pagination pg-blue" id="bola-content">
                                 <li class="page-item active" data-jenis="bola-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="bola-2"><a class="page-link">2</a></li>

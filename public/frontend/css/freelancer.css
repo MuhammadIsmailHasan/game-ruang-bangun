@@ -695,6 +695,9 @@ sup {
   padding: 20px;
   background: #fff;
   min-height: 460px;
+  
+  border: 1px solid thistle;
+  border-radius: 10px;
 }
 
 .latihan {
