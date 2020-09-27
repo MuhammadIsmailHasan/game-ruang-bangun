@@ -43,19 +43,19 @@
                             <li data-jenis="balok">
                                 <a href="#balok"><h4>BALOK</h4></a>
                             </li>
-                            <li>
+                            <li data-jenis="prisma">
                                 <a href="#prisma"><h4>PRISMA</h4></a>
                             </li>
-                            <li>
+                            <li data-jenis="limas">
                                 <a href="#limas"><h4>LIMAS</h4></a>
                             </li>
-                            <li>
+                            <li data-jenis="kerucut">
                                 <a href="#kerucut"><h4>KERUCUT</h4></a>
                             </li>
-                            <li>
+                            <li data-jenis="tabung">
                                 <a href="#tabung"><h4>TABUNG</h4></a>
                             </li>
-                            <li>
+                            <li data-jenis="bola">
                                 <a href="#bola"><h4>BOLA</h4></a>
                             </li>
                         </ul>
@@ -116,22 +116,22 @@
                                 </div>
                                 <div class="pilihan radio-group" data-jawaban="d">
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="a">
+                                        <label><input type="radio" name="2" value="a">
                                             &nbsp;a. 6
                                         </label>
                                     </div>
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="b">
+                                        <label><input type="radio" name="2" value="b">
                                             &nbsp;b. 8
                                         </label>
                                     </div>
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="c">
+                                        <label><input type="radio" name="2" value="c">
                                             &nbsp;c. 10
                                         </label>
                                     </div>
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="d">
+                                        <label><input type="radio" name="2" value="d">
                                             &nbsp;d. 12
                                         </label>
                                     </div>
@@ -143,22 +143,22 @@
                                 </div>
                                 <div class="pilihan radio-group" data-jawaban="d">
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="a">
+                                        <label><input type="radio" name="3" value="a">
                                             &nbsp;a. 7
                                         </label>
                                     </div>
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="b">
+                                        <label><input type="radio" name="3" value="b">
                                             &nbsp;b. 8
                                         </label>
                                     </div>
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="c">
+                                        <label><input type="radio" name="3" value="c">
                                             &nbsp;c. 9
                                         </label>
                                     </div>
                                     <div class="radio">
-                                        <label><input type="radio" name="1" value="d">
+                                        <label><input type="radio" name="3" value="d">
                                             &nbsp;d. 10
                                         </label>
                                     </div>
@@ -261,6 +261,7 @@
                         </nav>
                     </nav>
 
+
                     {{-- BALOK --}}
                     <nav id="balok" class="content" style="display: none">
                         <div id="balok-1" class="balok-content">
@@ -284,47 +285,990 @@
                                     <p>1. Berdasarkan bangun a dan b di atas dengan tinggi dan lebar yang sama, tunjukkan perbedanan sisi dari bangun tersebut?</p>
                                     <img src="{{ asset('img/materi/22.png') }}" alt="diagram 1" 
                                         class="img-responsive img-bordered"
-                                        style="width: 600px">
+                                        style="width: 400px">
                                 </div>
-                                <div class="pilihan">
-                                    <p>a. A kiri, A depan; B belakang, B depan; A kanan, A kiri; dan B atas, B kanan</p>
-                                    <p>b. Atas, bawah dan kiri, kanan</p>
-                                    <p>c. Kiri, kanan, depan, belakang, dan kiri, bawah</p>
-                                    <p>d. Kiri, kanan, depan, belakang, dan atas, bawah</p>
+                                <div class="pilihan radio-group" data-jawaban="b">
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="a">
+                                            &nbsp;a. A kiri, A depan; B belakang, B depan; A kanan, A kiri; dan B atas, B kanan
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="b">
+                                            &nbsp;b. A atas, A depan; B belakang, B depan; A belakang, A bawah; dan B atas, B bawah
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="c">
+                                            &nbsp;c. A kanan, A depan; B kanan, B depan; A belakang, A kiri; dan B atas, B kiri
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="d">
+                                            &nbsp;d. A atas, A kanan; B kiri, B depan; A kiri, A bawah; dan B atas, B kanan
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                             <div class="latihan">
                                 <div class="soal">
-                                    <p>2. Adi akan membuat prakarya yang berbentuk kerangka kubus dengan menggunakan bahan bambu, berapa bambu yang dibutuhkan agar prakaryanya menjadi kerangka kubus?</p>
+                                    <p>2. Manakah rusuk dari bangun balok di bawah ini?</p>
                                 </div>
-                                <div class="pilihan">
-                                    <p>a. 6</p>
-                                    <p>b. 8</p>
-                                    <p>c. 10</p>
-                                    <p>d. 12</p>
+                                <div class="pilihan radio-group" data-jawaban="c">
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="a">
+                                            &nbsp;a. BG-FE-CG-FB-AD-HA-HD-EA dan DC-DH-AG-FE; 
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="b">
+                                            &nbsp;b. BC-FG-DB-FB-DG-HE-HB-EA dan DC-HG-AB-FE; 
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="c">
+                                            &nbsp;c. BC-FG-CG-FB-AD-HE-HD-EA dan DC-HG-AB-FE; 
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="d">
+                                            &nbsp;d. BC-FG-CG-FB-AD-HE-HD-EA dan DC-EG-AB-FE;
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                             <div class="latihan">
                                 <div class="soal">
-                                    <p>3. Seorang pengamat akan melakukan pengamatan di sebuah ruangan yang berbentuk kubus. Agar pengamatan berjalan dengan baik, maka ia membutuhkan penerangan yang cukup. Lalu ia menaruh lampu disetiap sudut ruang tersebut. Berapa lampu yang dibutuhkan untuk menerangi ruangan tersebut?</p>
+                                    <p>3.Berdasarkan gambar di bawah, tunjukkan titik sudutnya?</p>
+                                    <img src="{{ asset('img/materi/23.png') }}" alt="diagram 1" 
+                                        class="img-responsive img-bordered"
+                                        style="width: 200px">
                                 </div>
-                                <div class="pilihan">
-                                    <p>a. 7</p>
-                                    <p>b. 8</p>
-                                    <p>c. 9</p>
-                                    <p>d. 10</p>
+                                <div class="pilihan radio-group" data-jawaban="a">
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="a">
+                                            &nbsp;a. ∠p, ∠w, ∠r, ∠q, ∠v, ∠s, ∠t, dan ∠u
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="b">
+                                            &nbsp;b. ∠p, ∠x, ∠r, ∠q, ∠v, ∠s, ∠t, dan ∠u
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="c">
+                                            &nbsp;c. ∠p, ∠w, ∠r, ∠q, ∠y, ∠s, ∠t, dan ∠u
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="d">
+                                            &nbsp;d. ∠p, ∠w, ∠z, ∠q, ∠v, ∠s, ∠t, dan ∠u
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div id="balok-4" class="balok-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/22.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>"Balok adalah sebuah bangun tiga dimensi yang memiliki sepasang bangun persegi yang saling berhadapan dan dua psang bangun persegi panjang"
+                            </p>
+                            <p>Sifat-sifat balok: <br/>
+                                1.	Memiliki sisi yang berhadapan sama besar: ABCD = EFGH, ABFE = CDGH, BCGF = ADHE.
+                                2.	Memiliki 12 rusuk yang sama panjang: AB = CD = EF = GH; BF = AE = CG = DH; BC = GF = AD = HE.
+                                3.	Memiliki 8 buah titik sudut yang sama besar: &ltp = &ltq = &ltr = &lts = &ltt = &ltu = &ltv = &ltw = 90 derajat.
+                            </p>
+                        </div>
+                        <div id="balok-5" class="balok-content" style="display: none">
+                            <p><b>C. JARING-JARING</b></p>
+                            <p>Perhatikan jaring-jaring di bawah ini!</p>
+                            <p>Carilah jaring-jaring yang membentuk bangun balok!</p>
+                            <img src="{{ asset('img/materi/25.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>Berdasarkan jaring-jaring di atas, apa yang dapat kalian simpulkan?</p>
+                        </div>
+                        <div id="balok-6" class="balok-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Berdasarkan jarring-jaring di atas dapat disimpulkan bahwa jaring-jaring balok memiliki 6 buah bangun, 2 buah bangun persegi dan 4 buah bangun persegi Panjang</p>
+                        </div>
+                        <div id="balok-7" class="balok-content" style="display: none">
+                            <p><b>D. LUAS PERMUKAAN</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <p>Balok memiliki 3 pasang sisi, yaitu sisi atas = sisi bawah, sisi depan = sisi belakang, dan sisi kiri = sisi kanan.</p>
+                            <p>1. Doni diberikan tugas oleh guru untuk menentukan luas permukaan dari sebuah kardus seperti gambar di samping. Lalu Doni membongkar kardus tersebut dan mendapatkan 3 pasang sisi kardus yang ukurannya berbeda. Berapa luas permukaan kardus tersebut?</p>
+                            <img src="{{ asset('img/materi/26.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                        </div>
+                        <div id="balok-8" class="balok-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <img src="{{ asset('img/materi/27.jpg') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Balok memiliki 3 pasang sisi yang luasnya sama besar, yaitu sisi atas = sisi bawah; sisi depan = sisi belakang; dan sisi kiri = sisi kanan. Luas sisi balok berturut-turut adalah sebagai berikut: <br/>
+                                1.	Luas1 = 2 × (p × l) <br/>
+                                2.	Luas2 = 2 × (p × t) <br/>
+                                3.	Luas3 = 2 × (l × t) <br/>
+                                Sehingga luas permukaan balok adalah: <br/>
+                                Luas permukaan	= luas1 + luas2 + luas3
+                                    = [2 × (p × l)] + [2 × (p × t) + [2 × (l × t)]
+                                    = 2 × [(p × l) + (p × t) + (l × t)]
+                            </p>
+                        </div>
+                        <div id="balok-9" class="balok-content" style="display: none">
+                            <p><b>E. VOLUME</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/28.jpg') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>Jika diperhatikan bangun kubus memiliki bentuk yang sama dengan bangun balok namun ada perbedaan antara keduanya, yaitu pada panjang. Berdasarkan jaring-jaring balok, tentukan volume dari bangun balok?</p>
+                        </div>
+                        <div id="balok-10" class="balok-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <img src="{{ asset('img/materi/29.jpg') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Bangun balok memiliki luas alas yang berbentuk persegi panjang dan luas persegi panjang = p × l <br/>
+                                Sehingga volume balok adalah sebagai berikut: <br/>
+                                Volume 	= luas alas × tinggi 
+                                = p × l × t
+                            </p>
+                        </div>
+
+
                         <hr style="margin: 0;">
                         <nav aria-label="Page navigation example" class="halaman">
                             <ul class="pagination pg-blue" id="balok-content">
                                 <li class="page-item active" data-jenis="balok-1"><a class="page-link">1</a></li>
                                 <li class="page-item" data-jenis="balok-2"><a class="page-link">2</a></li>
                                 <li class="page-item" data-jenis="balok-3"><a class="page-link">3</a></li>
+                                <li class="page-item" data-jenis="balok-4"><a class="page-link">4</a></li>
+                                <li class="page-item" data-jenis="balok-5"><a class="page-link">5</a></li>
+                                <li class="page-item" data-jenis="balok-6"><a class="page-link">6</a></li>
+                                <li class="page-item" data-jenis="balok-7"><a class="page-link">7</a></li>
+                                <li class="page-item" data-jenis="balok-8"><a class="page-link">8</a></li>
+                                <li class="page-item" data-jenis="balok-9"><a class="page-link">9</a></li>
+                                <li class="page-item" data-jenis="balok-10"><a class="page-link">10</a></li>
                             </ul>
                         </nav>
                     </nav>
+
+
+                    {{-- PRISMA --}}
+                    <nav id="prisma" class="content" style="display: none">
+                        <div id="prisma-1" class="prisma-content">
+                            <p><b>A. DEFINISI</b></p>
+                            <p>Perhatikan bangun di bawah ini!</p>
+                            <img src="{{ asset('img/materi/31.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>Apa perbedaan diantara bangun-bangun di atas?</p>
+                        </div>
+                        <div id="prisma-2" class="prisma-content" style="display: none;" >
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Perbedaan bangun-bangun di atas yaitu pada alas dan tutup. Bangun-bangun di atas semua termasuk ke dalam bangun prisma. Jadi dapat disimpulkan bangun prisma adalah bangun 3 dimensi yang memiliki alas dan tutup yang berbentuk segi-n dan sisi-sisi tegak yang berbentuk persegi atau persegi panjang.
+                            </p>
+                        </div>
+                        <div id="prisma-3" class="prisma-content" style="display: none;" >
+                            <p><b>SIFAT-SIFAT</b></p>
+                            <p>Perhatikan bangun di bawah ini!</p>
+                            <img src="{{ asset('img/materi/32.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>Jawablah pertanyaan di bawah ini!</p>
+                            <div class="latihan">
+                                <div class="soal">
+                                    <p>
+                                        1. Apa nama bangun (a) dan di bawah ini sifat-sifat manakah yang menggambarkan bangun (a)?
+                                    </p>
+                                </div>
+                                <div class="pilihan radio-group" data-jawaban="b">
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="a">
+                                            &nbsp;a. Bangun prisma segiempat; memiliki alas dan tutup berbentuk segitiga sedangkan sisi tegak persegi panjang dan memiliki sisi ABC = DEF dan ABED = CBEF = ACFD.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="b">
+                                            &nbsp;b. Bangun prisma segiempat; memiliki sisi ABCD = EFGH dan BCGF = CDHG = ADHE = ABEF dan memiliki alas dan tutup berbentuk persegi sedangkan sisi tegak berbentuk persegi panjang.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="c">
+                                            &nbsp;c. Bangun prisma segitiga; memiliki alas dan tutup berbentuk segitiga sedangkan sisi tegak persegi panjang dan memiliki sisi ABC = DEF dan ABED = CBEF = ACFD.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="d">
+                                            &nbsp;d. Bangun prisma segitiga; memiliki alas dan tutup yang berbentuk segi-n dan mamiliki rusuk yang menghubungkan titik sudut antara titik sudut alas dan tutup.
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latihan">
+                                <div class="soal">
+                                    <p>2. Apa nama bangun (b) dan di bawah ini sifat-sifat manakah yang menggambarkan bangun (b)?</p>
+                                </div>
+                                <div class="pilihan radio-group" data-jawaban="a">
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="a">
+                                            &nbsp;a.	Bangun prisma segitiga; memiliki alas dan tutup berbentuk segitiga sedangkan sisi tegak persegi panjang dan memiliki sisi ABC = DEF dan ABED = CBEF = ACFD.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="b">
+                                            &nbsp;b.	Bangun prisma segiempat; memiliki alas dan tutup berbentuk segitiga sedangkan sisi tegak persegi panjang dan memiliki sisi ABC = DEF dan ABED = CBEF = ACFD.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="c">
+                                            &nbsp;c.	Bangun prisma segitiga; memiliki alas dan tutup yang berbentuk segi-n dan mamiliki rusuk yang menghubungkan titik sudut antara titik sudut alas dan tutup.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="2" value="d">
+                                            &nbsp;d.	Bangun prisma segi-n; memiliki sisi ABCD = EFGH dan BCGF = CDHG = ADHE = ABEF dan memiliki alas dan tutup berbentuk persegi sedangkan sisi tegak berbentuk persegi panjang.
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latihan">
+                                <div class="soal">
+                                    <p>3.	Apa nama bangun (c) dan di bawah ini sifat-sifat manakah yang menggambarkan bangun (c)?</p>
+                                </div>
+                                <div class="pilihan radio-group" data-jawaban="d">
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="a">
+                                            &nbsp;a.	Bangun prisma segi-n; memiliki sisi ABCD = EFGH dan BCGF = CDHG = ADHE = ABEF dan memiliki alas dan tutup berbentuk persegi sedangkan sisi tegak berbentuk persegi panjang.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="b">
+                                            &nbsp;b.	Bangun prisma segi-n; memiliki alas dan tutup yang berbentuk segitiga dan mamiliki rusuk yang menghubungkan titik sudut antara titik sudut alas dan tutup.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="c">
+                                            &nbsp;c.	Bangun prisma segiempat; memiliki alas dan tutup yang berbentuk segiempat dan mamiliki rusuk yang menghubungkan titik sudut antara titik sudut alas dan tutup.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="3" value="d">
+                                            &nbsp;d.	Bangun prisma segi-n; memiliki alas dan tutup yang berbentuk segi-n dan mamiliki rusuk yang menghubungkan titik sudut antara titik sudut alas dan tutup.
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="prisma-4" class="prisma-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <img src="{{ asset('img/materi/33.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>Bangun prisma memiliki berbagai macam jenis, yaitu: 
+                                prisma segitiga, prisma segiempat, prisma segilima. Prisma segiempat dapat dikatakan sebagai balok atau kubus sesuai panjang sisi prisma. Berikut sifat-sifatnya:
+                            </p>
+                            <p>Prisma Segitiga<br/>
+                                1.	Prisma segitiga memiliki sisi yang berhadapan sama besar, yaitu ABC = DEF dan ABED = CBEF = ACFD.<br/>
+                                2.	Memiliki alas dan tutup berbentuk segitiga, sedangkan sisi tegak berbentuk persegi panjang. 
+                            </p>
+                            <p>Prisma Segiempat<br/>
+                                1.	Prisma segiempat memiliki sisi yang berhadapan sama besar, yaitu ABCD = EFGH dan BCGF = CDHG = ADHE = ABEF.<br/>
+                                2.	Memiliki alas dan tutup berbentuk segiempat, sedangkan sisi tegak berbentuk persegi panjang.
+                            </p>
+                            <p>Prisma segi-n<br/>
+                                1.	Prisma memiliki alas dan atap yang berbentuk segi-n yang sama besar dan sejajar.<br/>
+                                2.	Prisma memiliki rusuk-rusuk yang menghubungkan titik sudut antara titik sudut alas dan atap.
+                            </p>
+                        </div>
+                        <div id="prisma-5" class="prisma-content" style="display: none">
+                            <p><b>C. JARING-JARING</b></p>
+                            <p>Perhatikan jaring-jaring di bawah ini!</p>
+                            <img src="{{ asset('img/materi/34.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Dari jaring-jaring di atas, manakah yang termasuk jaring-jaring prisma? <br/>
+                                Berdasarkan jaring-jaring di atas, apa yang dapat kalian simpulkan?
+                            </p>
+                        </div>
+                        <div id="prisma-6" class="prisma-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Berdasarkan jaring-jaring di atas, dapat diambil kesimpulan bahwa: <br/>
+                                1.	Jaring-jaring prisma segitiga terdiri dari 3 buah persegi panjang dan 2 buah segitiga. <br/>
+                                2.	Jaring-jaring prisma segiempat terdiri dari 2 buah persegi di bagian alas dan tutup serta 4 buah persegi Panjang di bagian sisi tegak.
+                            </p>
+                        </div>
+                        <div id="prisma-7" class="prisma-content" style="display: none">
+                            <p><b>D. LUAS PERMUKAAN</b></p>
+                            <p>Kerjakan pertanyaan berikut ini!</p>
+                            <p>
+                                3.	Adi sedang membongkar sebuah kardus berbentuk prisma segitiga dan segiempat menjadi sebuah lembaran. Bangun prisma memiliki bagian alas, tutup, dan bidang tegak. Berdasarkan itu Adi menghitung luas dari lembaran kardus tersebut. Bagaimanakah Adi menghitung luas dari lembaran tersebut?
+                            </p>
+                        </div>
+                        <div id="prisma-8" class="prisma-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Luas dari lembaran sama dengan luas permukaan dan bangun prisma memiliki bagian alas, tutup, dan bidang tegak. Dengan demikian, luas permukaan dapat ditulis sebagai berikut: <br/>
+                                Luas permukaan	= luas alas + luas tutup + jumlah luas bidang tegak 
+                                = luas alas + luas alas + jumlah luas sisi-sisi tegak
+                            </p>
+                        </div>
+                        <div id="prisma-9" class="prisma-content" style="display: none">
+                            <p><b>E. VOLUME</b></p>
+                            <p>Perhatikan bangun prisma segiempat di bawah ini!</p>
+                            <img src="{{ asset('img/materi/35.jpg') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Bangun prisma di samping memiliki bentuk yang sama dengan bangun balok namun memiliki alas dan tutup berbentuk persegi. Rumus bangun balok = p × l × t. Jika kita lihat p × l merupakan luas alas dan tutup atau dapat kita tulis dengan sisi × sisi karena memiliki bentuk persegi. Bangun prisma memiliki besar luas alas = luas tutup. <br/>
+                                Lalu bagaimana jika kita ubah alas dan tutupnya dengan bentuk segitiga atau segilima menjadi bagaimanakah rumusnya? Jelaskan!
+                            </p>
+                        </div>
+                        <div id="prisma-10" class="prisma-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <img src="{{ asset('img/materi/36.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Bagaimanakah rumusnya jika alas dan tutupnya berbentuk segitiga dan segilima? <br/>
+                                Jika alas dan tutupnya berbentuk segitiga atau segilima maka kita menggunakan rumus luas segitiga atau segilima. Dengan demikian, dapat disimpulkan volume bangun prisma ditentukan berdasarkan bentuk alas dan tutup serta memiliki sebuah tinggi. <br/>
+                                Volume prisma dapat ditulis: <br/>
+                                Volume prisma = luas alas × tinggi 
+                            </p>
+                        </div>
+
+
+                        <hr style="margin: 0;">
+                        <nav aria-label="Page navigation example" class="halaman">
+                            <ul class="pagination pg-blue" id="prisma-content">
+                                <li class="page-item active" data-jenis="prisma-1"><a class="page-link">1</a></li>
+                                <li class="page-item" data-jenis="prisma-2"><a class="page-link">2</a></li>
+                                <li class="page-item" data-jenis="prisma-3"><a class="page-link">3</a></li>
+                                <li class="page-item" data-jenis="prisma-4"><a class="page-link">4</a></li>
+                                <li class="page-item" data-jenis="prisma-5"><a class="page-link">5</a></li>
+                                <li class="page-item" data-jenis="prisma-6"><a class="page-link">6</a></li>
+                                <li class="page-item" data-jenis="prisma-7"><a class="page-link">7</a></li>
+                                <li class="page-item" data-jenis="prisma-8"><a class="page-link">8</a></li>
+                                <li class="page-item" data-jenis="prisma-9"><a class="page-link">9</a></li>
+                                <li class="page-item" data-jenis="prisma-10"><a class="page-link">10</a></li>
+                            </ul>
+                        </nav>
+                    </nav>
+                    
+
+                    {{-- LIMAS --}}
+                    <nav id="limas" class="content" style="display: none">
+                        <div id="limas-1" class="limas-content">
+                            <p><b>A. DEFINISI</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/31.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Dari gambar di atas, manakah yang termasuk ke dalam bangun limas? <br/>
+                                Setelah mengetahui gambar yang termasuk ke dalam bangun limas, apa yang dapat kita simpulkan dari gambar tersebut?
+                            </p>
+                        </div>
+                        <div id="limas-2" class="limas-content" style="display: none;" >
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Berdasarkan gambar bangun limas di atas dapat disimpulkan bahwa bangun limas merupakan sebuah bangun yang mempunyai alas dan beberapa daerah selimut yang memiliki bentuk segi-n serta satu titik persekutuan.</p>
+                        </div>
+                        <div id="limas-3" class="limas-content" style="display: none;" >
+                            <p><b>SIFAT-SIFAT</b></p>
+                            <p>Kemudian jawablah pertanyaan di bawah ini!</p>
+                            <img src="{{ asset('img/materi/42.jpg') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Berdasarkan gambar limas segilima O. PQRST di diatas, Tentukan: <br/>
+                                1.	Sisi alas dan sisi tegak <br/>
+                                2.	Rusuk alas dan rusuk tegak <br/>
+                                3.	Titik sudut
+                            </p>
+                        </div>
+                        <div id="limas-4" class="limas-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Bangun limas memiliki bermacam-macam bentuk, antara lain limas segiempat, limas segitiga, dan limas segibanyak (seg-n). Berikut sifat-sifat dari macam bentuk limas:</p>
+                            <p>Limas Segiempat</p>
+                            <img src="{{ asset('img/materi/43.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                1.	Limas memiliki sisi alas yang berbentuk segiempat, yaitu PQRS <br/>
+                                2.	Limas memiliki 4 sisi tegak yang berbentuk segitiga sama kaki yang sama besar, yaitu QRT = RST = SPT = PQT
+                            </p>
+                            <p>Limas Segitiga</p>
+                            <img src="{{ asset('img/materi/44.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                1.	Limas memiliki sisi alas yang berbentuk segitiga, yaitu ABC <br/>
+                                2.	Limas memiliki 4 sisi tegak yang berbentuk segitiga sama kaki yang sama besar, yaitu QRT = RST = SPT = PQT
+                            </p>
+                            <p>Limas segi-n</p>
+                            <p>
+                                4.	Limas memiliki sisi tegak yang berbentuk segitiga.
+                            </p>
+                        </div>
+                        <div id="limas-5" class="limas-content" style="display: none">
+                            <p><b>C. JARING-JARING</b></p>
+                            <p>Perhatikan jaring-jaring di bawah ini!</p>
+                            <p>Carilah jaring-jaring yang membentuk bangun balok!</p>
+                            <img src="{{ asset('img/materi/45.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Berdasarkan jaring-jaring di atas, manakah yang bukan merupakan jaring-jaring prisma?  <br/>
+                                Berdasarkan jaring-jaring di atas, apa yang dapat kalian simpulkan?
+                            </p>
+                        </div>
+                        <div id="limas-6" class="limas-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Berdasarkan jaring-jaring di atas, dapat disimpulkan bahwa: <br/>
+                                1.	Jaring-jaring limas segiempat terdiri dari sebuah persegi yang berada di tengah dan 4 buah segitiga sama kaki yang sama besar. <br/>
+                                2.	Jaring-jaring limas segitiga terdiri dari 4 buah segitiga, 1 buah segitiga sama sisi sebalah alas dan 3 buah segitiga sama kaki sebagai sisi tegak.
+                            </p>
+                        </div>
+                        <div id="limas-7" class="limas-content" style="display: none">
+                            <p><b>D. LUAS PERMUKAAN</b></p>
+                            <p>Jawablah pertanyaan berikut ini!</p>
+                            <p>Eva diberikan pekerjaan rumah oleh gurunya. Ia harus menghitung luas permukaan dari bangun limas berikut:</p>
+                            <img src="{{ asset('img/materi/46.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>Jadi, bagaimana cara Eva akan menghitung luas permukaan jaring-jaring di atas?</p>
+                        </div>
+                        <div id="limas-8" class="limas-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Luas permukaan limas dapat dicari dengan menjumlahkan luas bangun datar yang ada pada jaring-jaring yang terbentuk.<br/>
+                                Sehingga, luas permukaan limas adalah: <br/>
+                                Luas permukaan	= luas alas + jumlah luas sisi tegak
+                            </p>
+                        </div>
+                        <div id="limas-9" class="limas-content" style="display: none">
+                            <p><b>E. VOLUME</b></p>
+                            <p>Perhatikan bangun kubus dan limas di bawah ini!</p>
+                            <img src="{{ asset('img/materi/47.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Jika alas kubus dan limas memiliki besar yang sama dan apabila bangun limas dimasukkan ke dalam kubus, serta titik T kita hubungkan ke seluruh titik sudut kubus apa yang kalian dapatkan?
+                            </p>
+                        </div>
+                        <div id="limas-10" class="limas-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Jika bangun limas dimasukkan ke dalam bangun kubus dan titik T dihubungkan ke semua titik sudut kubus, maka akan terbentuk 6 limas segiempat yang kongruen, seperti gambar di bawah ini:
+                            </p>
+                            <img src="{{ asset('img/materi/48.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Bangun limas yang terbentuk yaitu T.ABCD, T.BCGF, T.CDHG, T.ADHE, T.ABFE, dan T.EFGH. <br/>
+                                Jika diketahui panjang rusuk kubus adalah s cm, maka tinggi limas adalah 1/2 s. Jadi limas 1/6 kali dari kubus, dapat disimpulkan volume limas adalah:
+                            </p>
+                            <p>
+                                Volume Limas <br/>
+                                    = 1/6 × volume kubus <br/>
+                                    = 1/6 × s3 <br/>
+                                    = 1/6 × s2 × s => s merupakan panjang rusuk kubus yang berarti juga tinggi limas = 1/2 s <br/>
+                                    = 1/6 × s2 × 1/2 s => 1/2 s merupakan tinggi limas dan s2 luas persegi <br/>
+                                    = 1/6 × luas persegi (alas) × tinggi <br/>
+                                    = 1/6 × luas alas × t
+                            </p>
+                        </div>
+
+                        <hr style="margin: 0;">
+                        <nav aria-label="Page navigation example" class="halaman">
+                            <ul class="pagination pg-blue" id="limas-content">
+                                <li class="page-item active" data-jenis="limas-1"><a class="page-link">1</a></li>
+                                <li class="page-item" data-jenis="limas-2"><a class="page-link">2</a></li>
+                                <li class="page-item" data-jenis="limas-3"><a class="page-link">3</a></li>
+                                <li class="page-item" data-jenis="limas-4"><a class="page-link">4</a></li>
+                                <li class="page-item" data-jenis="limas-5"><a class="page-link">5</a></li>
+                                <li class="page-item" data-jenis="limas-6"><a class="page-link">6</a></li>
+                                <li class="page-item" data-jenis="limas-7"><a class="page-link">7</a></li>
+                                <li class="page-item" data-jenis="limas-8"><a class="page-link">8</a></li>
+                                <li class="page-item" data-jenis="limas-9"><a class="page-link">9</a></li>
+                                <li class="page-item" data-jenis="limas-10"><a class="page-link">10</a></li>
+                            </ul>
+                        </nav>
+                    </nav>
+
+
+                    {{-- KERUCUT --}}
+                    <nav id="kerucut" class="content" style="display: none">
+                        <div id="kerucut-1" class="kerucut-content">
+                            <p><b>A. DEFINISI</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/51.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Gambar manakah yang termasuk ke dalam bangun keucut? <br/>
+                                Apa yang dapat kalian simpulkan dari gambar bangun kerucut?
+                            </p>
+                        </div>
+                        <div id="kerucut-2" class="kerucut-content" style="display: none;" >
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Berdasarkan gambar-gambar di atas, dapat diambil kesimpulan bahwa kerucut adalah bangun ruang yang dibatasi sebuah bangun lingkaran dan sebuah daerah lengkung yang simetris terhadap porosnya yaitu titik pusat lingkaran tersebut.</p>
+                        </div>
+                        <div id="kerucut-3" class="kerucut-content" style="display: none;" >
+                            <p><b>SIFAT-SIFAT</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/52.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Apa yang membedakan gambar bangun kerucut dengan yang bukan termasuk bangun kerucut?
+                            </p>
+                        </div>
+                        <div id="kerucut-4" class="kerucut-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/53.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Perbedaan yang gambar kerucut dengan yang bukan kerucut adalah pada sifat-sifatnya. Gambar c memiliki bentuk limas segiempat. Sedangkan gambar yang lainnya adalah kerucut yang memiliki sifat-sifat:<br/>
+                                1.	Memiliki alas yang berbentuk lingkaran <br/>
+                                2.	Memiliki sisi tegak yang berupa bidang lengkung (selimut kerucut) <br/>
+                                3.	Memiliki sebuah titik puncak
+                            </p>
+                        </div>
+                        <div id="kerucut-5" class="kerucut-content" style="display: none">
+                            <p><b>C. JARING-JARING</b></p>
+                            <p>
+                                Kerjakan pertanyaan di bawah ini! <br/>
+                                1.	Budi akan membuat topi ulang tahun untuk adiknya berbentuk kerucut. Ia menyiapkan selembar karton. Pola-pola apa saja yang harus Budi buat agar topi ulang tahunnya jadi?
+                            </p>
+                        </div>
+                        <div id="kerucut-6" class="kerucut-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah!</p>
+                            <img src="{{ asset('img/materi/54.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Pola-pola yang harus Budi buat untuk membuat topi ulang tahun adalah 1 buah lingkaran sebagai alas topi dan 1 buah bidang lengkung sebagai selimut topi.
+                            </p>
+                        </div>
+                        <div id="kerucut-7" class="kerucut-content" style="display: none">
+                            <p><b>D. LUAS PERMUKAAN</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/55.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Dalam mencari luas permukaan kerucut, dapat melihat jaring-jaring kerucut, terdapat garis pelukis OP dan OQ, panjang busur PQ serta luas OPQ.  <br/>
+                                Apabila Panjang jari-jari = panjang garis pelukis dan panjang busur = keliling lingkaran. <br/>
+                                Maka luas selimut dan luas permukaan kerucut adalah:
+                            </p>
+                            <img src="{{ asset('img/materi/56.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                        </div>
+                        <div id="kerucut-8" class="kerucut-content" style="display: none">
+                            <p><b>E. VOLUME</b></p>
+                            <p>
+                                Pahamilah dan kerjakan pernyataan berikut ini! <br/>
+                                Lia sedang mengisi sebuah ember air berbentuk tabung dengan menggunakan wadah berbentuk kerucut yang memiliki r dan t yang sama besar dengan ember air. Lia berhenti mengisi ember air setelah 3 kali isian air dengan wadah kerucut karena ember air sudah penuh. Apa yang dapat kalian simpulkan dari pernyataan di atas?
+                            </p>
+                        </div>
+                        <div id="kerucut-9" class="kerucut-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar berikut ini!</p>
+                            <img src="{{ asset('img/materi/57.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Lihatlah gambar di atas, terlihat sebuah kerucut yang masuk ke dalam sebuah tabung dengan r dan t yang sama besar. 
+                                Untuk menemukan volume kerucut, dilakukan percobaan dengan membandingkan volume kerucut dengan volume tabung. 
+                            </p>
+                            <p>
+                                Dilakukan sebuah percobaan yang menunjukkan bahwa untuk mengisi sebuah tabung diperlukan 3 kali kerucut dengan r dan t yang sama dengan tabung. Dengan demikian, satu volume tabung sama dengan 3 kali volume kerucut.
+                            </p>
+                            <p>
+                                Hal tersebut dapat dilihat dari gambar di atas bahwa ada 3 kerucut di dalam tabung, yaitu AOB, AOD, dan BOC. <br/>
+                                Dapat disimpulkan bahwa volume kerucut adalah:
+                            </p>
+                            <img src="{{ asset('img/materi/58.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 300px">
+                        </div>
+
+                        <hr style="margin: 0;">
+                        <nav aria-label="Page navigation example" class="halaman">
+                            <ul class="pagination pg-blue" id="kerucut-content">
+                                <li class="page-item active" data-jenis="kerucut-1"><a class="page-link">1</a></li>
+                                <li class="page-item" data-jenis="kerucut-2"><a class="page-link">2</a></li>
+                                <li class="page-item" data-jenis="kerucut-3"><a class="page-link">3</a></li>
+                                <li class="page-item" data-jenis="kerucut-4"><a class="page-link">4</a></li>
+                                <li class="page-item" data-jenis="kerucut-5"><a class="page-link">5</a></li>
+                                <li class="page-item" data-jenis="kerucut-6"><a class="page-link">6</a></li>
+                                <li class="page-item" data-jenis="kerucut-7"><a class="page-link">7</a></li>
+                                <li class="page-item" data-jenis="kerucut-8"><a class="page-link">8</a></li>
+                                <li class="page-item" data-jenis="kerucut-9"><a class="page-link">9</a></li>
+                            </ul>
+                        </nav>
+                    </nav>
+
+
+                    {{-- TABUNG --}}
+                    <nav id="tabung" class="content" style="display: none">
+                        <div id="tabung-1" class="tabung-content">
+                            <p><b>A. DEFINISI</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/61.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Berdasarkan gambar di atas, gambar manakah yang termasuk bangun tabung? <br/>
+                                Apa yang dapat kalian simpulkan dari gambar yang termasuk tabung?
+                            </p>
+                        </div>
+                        <div id="tabung-2" class="tabung-content" style="display: none;" >
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/62.jpg') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">    
+                            <p>
+                                Berdasarkan gambar sebelumnya, benda-benda tersebut semua termasuk ke dalam tabung. Disini dapat disimpulkan bahwa: <br/>
+                                "Tabung adalah bangun ruang yang dibatasi oleh dua buah daerah lingkaran yang kongruen serta sebuah daerah lengkung yang berada di daerah tepi lingkaran yang menghubungkan dua buah lingkaran tersebut."
+                            </p>
+                        </div>
+                        <div id="tabung-3" class="tabung-content" style="display: none;" >
+                            <p><b>SIFAT-SIFAT</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/62.jpg') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Jelaskan perbedaan bentuk dari gambar berikut! Apakah semua gambar di samping dapat disebut bangun tabung?
+                            </p>
+                        </div>
+                        <div id="tabung-4" class="tabung-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Berdasarkan gambar di atas, gambar A merupakan bangun tabung dapat dilihat dari sifat-sifat tabung yaitu: <br/>
+                                1.	Tabung memiliki 2 buah lingkaran, alas dan tutup<br/>
+                                2.	Memiliki 1 buah bidang lengkung (selimut tabung)<br/>
+                                3.	Rusuk tabung berupa rusuk lengkung<br/>
+                                4.	Tabung tidak memiliki titik sudut<br/>
+                                Sedangkan gambar B merupakan bangun prisma segiempat.
+                            </p>
+                        </div>
+                        <div id="tabung-5" class="tabung-content" style="display: none">
+                            <p><b>C. JARING-JARING</b></p>
+                            <p>
+                                Kerjakan pertanyaan di bawah ini! <br/>
+                                Dita sedang membongkar sebuah kaleng susu dengan memisahkan 3 bagian menjadi atas, bawah, dan tengah. Bagian apa yang Dita dapat dari kaleng susu tersebut?
+                            </p>
+                        </div>
+                        <div id="tabung-6" class="tabung-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah!</p>
+                            <img src="{{ asset('img/materi/64.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Berdasarkan pertanyaan di atas, bahwa Dita mendapat bagian 2 buah lingkaran yang didapat dari tutup dan alas, dan 1 buah persegi panjang sebagai selimut dari kaleng susu tersebut.
+                            </p>
+                        </div>
+                        <div id="tabung-7" class="tabung-content" style="display: none">
+                            <p><b>D. LUAS PERMUKAAN</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/65.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Berdasarkan jaring-jaring di samping, tabung memiliki selimut berbentuk persegi panjang dengan ukuran: <br/>
+                                Panjang = keliling lingkaran = alas tabung = tutup tabung; Lebar = tinggi tabung
+                            </p>
+                            <p>
+                                Berdasarkan penjelasan di atas, coba kalian tentukan luas selimut dan luas permukaan tabung?
+                            </p>
+                        </div>
+                        <div id="tabung-8" class="tabung-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Berdasarkan penjelasan sebelumnya dapat disimpulkan bahwa:</p>
+                            <p>
+                                luas selimut tabung <br/>
+                                    = panjang × lebar<br/>
+                                    = keliling lingkaran × tinggi<br/>
+                                    = 2πr × t<br/>
+                                    = 2πrt
+                            </p>
+                            <p>
+                                Luas permukaan tabung<br/>  
+                                    = luas alas + luas tutup + luas selimut<br/>
+                                    = πr2 + πr2 + 2πrt<br/>
+                                    = 2πr2 + 2πrt<br/>
+                                    = 2πr (r + t)
+                            </p>
+                        </div>
+                        <div id="tabung-9" class="tabung-content" style="display: none">
+                            <p><b>E. VOLUME</b></p>
+                            <p>Pahami dan kerjakan pernyataan berikut ini!</p>
+                            <img src="{{ asset('img/materi/66.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Jika kue ulang tahun di potong menjadi 12 bagian dan di susun memanjang, maka bentuk apa yang akan kalian dapatkan? Apakah dapat membentuk suatu bangun? Bangun apa yang kalian dapatkan?
+                            </p>
+                        </div>
+                        <div id="tabung-10" class="kerucut-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar berikut ini!</p>
+                            <img src="{{ asset('img/materi/67.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Berdasarkan pertanyaan sebelumnya bahwa jika kue ulang tahun tersebut di potong menjadi 12 bagian dan disusun memanjang akan membentuk bangun balok, seperti gambar di samping.
+                            </p>
+                            <p>
+                                Dengan demikian, volume tabung = volume balok. Dengan demikian, dapat disimpulkan bahwa: <br/>
+                                Volume balok <br/>
+                                    = panjang × lebar × tinggi<br/>
+                                    = πr × r × t<br/>
+                                    = πr2 × t<br/>
+                                Dikarenakan volume tabung <br/>
+                                    = volume balok<br/>
+                                    = πr2 × t
+                            </p>
+                        </div>
+
+                        <hr style="margin: 0;">
+                        <nav aria-label="Page navigation example" class="halaman">
+                            <ul class="pagination pg-blue" id="tabung-content">
+                                <li class="page-item active" data-jenis="tabung-1"><a class="page-link">1</a></li>
+                                <li class="page-item" data-jenis="tabung-2"><a class="page-link">2</a></li>
+                                <li class="page-item" data-jenis="tabung-3"><a class="page-link">3</a></li>
+                                <li class="page-item" data-jenis="tabung-4"><a class="page-link">4</a></li>
+                                <li class="page-item" data-jenis="tabung-5"><a class="page-link">5</a></li>
+                                <li class="page-item" data-jenis="tabung-6"><a class="page-link">6</a></li>
+                                <li class="page-item" data-jenis="tabung-7"><a class="page-link">7</a></li>
+                                <li class="page-item" data-jenis="tabung-8"><a class="page-link">8</a></li>
+                                <li class="page-item" data-jenis="tabung-9"><a class="page-link">9</a></li>
+                                <li class="page-item" data-jenis="tabung-10"><a class="page-link">10</a></li>
+                            </ul>
+                        </nav>
+                    </nav>
+
+                    {{-- BOLA --}}
+                    <nav id="bola" class="content" style="display: none">
+                        <div id="bola-1" class="bola-content">
+                            <p><b>A. DEFINISI</b></p>
+                            <p>Perhatikan gambar berikut ini!</p>
+                            <img src="{{ asset('img/materi/71.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>Berdasarkan gambar bola-bola di atas, manakah yang termasuk bangun bola?</p>
+                        </div>
+                        <div id="bola-2" class="bola-content" style="display: none;" >
+                            <p><b>PENJELASAN!</b></p>
+                            <p>
+                                Berdasarkan gambar di atas yang termasuk bangun bola adalah gambar a, b, dan c, karena definisi bola berikut: <br/>
+                                "Bola adalah bangun ruang tiga dimensi yang terbentuk dari tak hingga lingkaran yang memiliki jari-jari sama dan berpusat pada satu titik yang sama."
+                            </p>
+                        </div>
+                        <div id="bola-3" class="bola-content" style="display: none;" >
+                            <p><b>SIFAT-SIFAT</b></p>
+                            <p>Pilihlah pertanyaan di bawah ini dengan benar!</p>
+                            <div class="latihan">
+                                <div class="soal">
+                                    <p>1. Tunjukkan manakah sifat-sifat dari bangun bola?</p>
+                                </div>
+                                <div class="pilihan radio-group" data-jawaban="b">
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="a">
+                                            &nbsp;a. Bola tidak memiliki sisi dan tidak memiliki rusuk dan titik sudut.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="b">
+                                            &nbsp;b. Bola memiliki 1 buah sisi yang berbentuk bidang lengkung dan tidak memiliki rusuk dan titik sudut.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="c">
+                                            &nbsp;c. Bola memiliki sisi yang berbentuk bidang lengkung dan memiliki rusuk dan titik sudut.
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label><input type="radio" name="1" value="d">
+                                            &nbsp;d. Bola memiliki 1 buah sisi yang berbentuk bidang lengkung, memiliki rusuk dan tidak titik sudut.
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bola-4" class="bola-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/72.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Sifat-sifat bola adalah: <br/>
+                                1.	Bola hanya memiliki 1 buah sisi yang berbentuk bidang lengkung, dapat dilihat pada gambar di samping.<br/>
+                                2.	Bola tidak memiliki rusuk dan titik sudut.
+                            </p>
+                        </div>
+                        <div id="bola-5" class="bola-content" style="display: none">
+                            <p><b>C. JARING-JARING</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/73.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                                <p>
+                                    Jika diperhatikan gambar buah jeruk di samping. Terlihat memiliki bentuk serupa dengan bola dan kulitnya adalah lapisan permukaannya. <br/>
+                                    Lalu apa yang dapat kalian simpulkan tentang jaring-jaring bola dari gambar di samping? 
+                                </p>
+                            </div>
+                            <div id="bola-6" class="bola-content" style="display: none">
+                                <p><b>PENJELASAN!</b></p>
+                                <p>Perhatikan gambar di bawah ini!</p>
+                                <img src="{{ asset('img/materi/74.png') }}" alt="diagram 1" 
+                                    class="img-responsive img-bordered"
+                                    style="width: 400px">
+                            <p>
+                                Berdasarkan gambar di atas, jika buah jeruk yang dikupas diperumpakan sebuah bola yang dikupas dan kulitnya dipisahkan dari dagingnya, maka akan terlihat seperti gambar b. <br/>
+                                Jadi dapat disimpulkan bahwa jaring-jaring bola dapat berupa sebuah irisan-irisan yang menyerupai daging buah jeruk.
+                            </p>
+                        </div>
+                        <div id="bola-7" class="bola-content" style="display: none">
+                            <p><b>D. LUAS PERMUKAAN</b></p>
+                            <p>
+                                Berdasarkan jaring-jaring bola, 
+                                Perhatikan gambar di bawah ini dan cobalah menjawab pertanyaan di bawah ini!
+                            </p>
+                            <img src="{{ asset('img/materi/75.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                1.	Eka melakukan sebuah percobaan seperti gambar di atas untuk menentukan luas permukaan suatu bola. Ia menyiapkan satu buah jeruk, kemudian membelahnya menjadi dua bagian. Lalu ia menyiapkan 6 gambar lingkaran. Ia mengupas semua kulit jeruk yang dibelah dan menaruhnya pada lingkaran-lingkaran tersebut. Apa yang akan Eka dapatkan setelah melakukan percobaan tersebut? Apakah kulit jeruk memenuhi ke 6 gambar lingkaran?
+                            </p>
+                        </div>
+                        <div id="bola-8" class="bola-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/76.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Eka melakukan sebuah percobaan seperti gambar di atas untuk menentukan luas permukaan suatu bola. Ia menyiapkan satu buah jeruk (a), kemudian membelahnya menjadi dua bagian (b). Lalu ia menyiapkan 6 gambar lingkaran (d). Ia mengupas semua kulit jeruk yang dibelah dan menaruhnya pada lingkaran-lingkaran tersebut (e). Dari percobaan yang Eka lakukan ia mendapatkan 4 lingkaran yang memenuhi. 
+                            </p>
+                            <p>
+                                Disini dapat disimpulkan bahwa luas permukaan bola dapat juga dibentuk dengan 4 luas lingkaran yang sama besar. 
+                            </p>
+                            <img src="{{ asset('img/materi/77.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Dengan membagi bola menjadi 4 bagian sama besar, kemudian luas permukaan 4 bagian bola tersebut dikupas bagian selimut dan disusun pada keempat lingkatan tersebut, hasil dari kupasan 4 bagian bola memenuhi 4 lingkaran, seperti percobaan di atas.
+                            </p>
+                            <p>
+                                Dapat disimpulkan bahwa luas permukaan bola adalah:<br/>
+                                Luas permukaan bola <br/>
+                                    = 4 × luas lingkaran <br/>
+                                    = 4 × πr2
+                            </p>
+                        </div>
+                        <div id="bola-9" class="bola-content" style="display: none">
+                            <p><b>E. VOLUME</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/78.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Dilakukan sebuah percobaan memasukkan bola ke dalam sebuah tabung dengan jari-jari yang sama besar. seperti gambar di atas.
+                            </p>
+                            <p>
+                                Masih ingatah kalian dengan rumus volume tabung, yaitu πr2 × t, 
+                                Berdasarkan gambar di samping dapat didapat juga volume tabung, yaitu, πr2 × 2r, 2r didapat dari tinggi tabung sama dengan 2 kali jari-jari.
+                                Jika dilakukan percobaan bahwa tabung akan terisi penuh dengan 3 kali setengah bola, seperti gambar di bawah ini.
+                            </p>
+                            <img src="{{ asset('img/materi/79.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Jadi, dapat disimpulkan ternyata volume tabung sama dengan 3 kali volume setengah bola.<br/>
+                                Lalu, bagaimana dengan volume bola penuh, coba kalian tentukan berdasarkan petunjuk-petunjuk di atas?
+                            </p>
+                        </div>
+                        <div id="bola-10" class="bola-content" style="display: none">
+                            <p><b>PENJELASAN!</b></p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/78.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Disini ada gambar tabung yang di dalamnya terdapat sebuah bola dengan jari-jari yang sama besar. Berdasarkan gambar di samping dapat disimpulkan bahwa 
+                                volume tabung = πr2 × 2r
+                                = 2πr3 
+                            </p>
+                            <p>Bagaimana dengan volume bola?</p>
+                            <img src="{{ asset('img/materi/79.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Jika dilakukan percobaan bahwa tabung akan terisi penuh dengan 3 kali setengah bola, seperti gambar di samping.
+                                Jadi, dapat disimpulkan ternyata volume tabung sama dengan 3 kali setengah bola.
+                            </p>
+                            <img src="{{ asset('img/materi/710.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                volume setengah bola     
+                                    = 1/3 × volume tabung
+                                    = 1/3 × 2πr3  
+                                    = 2/3 × πr3
+                            </p>
+                            <p>Bagaimana dengan volume satu bola?</p>
+                            <img src="{{ asset('img/materi/711.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 200px">
+                            <p>
+                                Volume bola didapatkan dari: <br/>
+                                volume volume    
+                                    = 2 × setengah bola
+                                    = 2 × (2/3 × πr3)
+                                    = 4/3 × πr3
+                            </p>
+                        </div>
+
+
+                        <hr style="margin: 0;">
+                        <nav aria-label="Page navigation example" class="halaman">
+                            <ul class="pagination pg-blue" id="bola-content">
+                                <li class="page-item active" data-jenis="bola-1"><a class="page-link">1</a></li>
+                                <li class="page-item" data-jenis="bola-2"><a class="page-link">2</a></li>
+                                <li class="page-item" data-jenis="bola-3"><a class="page-link">3</a></li>
+                                <li class="page-item" data-jenis="bola-4"><a class="page-link">4</a></li>
+                                <li class="page-item" data-jenis="bola-5"><a class="page-link">5</a></li>
+                                <li class="page-item" data-jenis="bola-6"><a class="page-link">6</a></li>
+                                <li class="page-item" data-jenis="bola-7"><a class="page-link">7</a></li>
+                                <li class="page-item" data-jenis="bola-8"><a class="page-link">8</a></li>
+                                <li class="page-item" data-jenis="bola-9"><a class="page-link">9</a></li>
+                                <li class="page-item" data-jenis="bola-10"><a class="page-link">10</a></li>
+                            </ul>
+                        </nav>
+                    </nav>
+
+
                 </div>
             </div>
         </div>
@@ -360,161 +1304,4 @@
 
         })
     </script>
-    {{-- <script type="text/javascript">
-        $(document).ready(function() {
-            $('#btn_selesai').click(function (e) { 
-                let userId = '{{ Auth::user()->id }}';
-                let url = "{{ route('user-api.update', 'replaceThis') }}";
-                
-                $.ajax({
-                    type: "POST",
-                    url: url.replace('replaceThis', userId),
-                    data: {
-                        "status_materi" : 1
-                    },
-                    dataType: "JSON",
-                    success: function (response) {
-                        if (response.status) {
-                            Swal.fire({
-                                    title: 'LANJUTKAN BERMAIN ?',
-                                    text: "Pilih Yes untuk Lanjut ke Game Ronde 1",
-                                    icon: 'warning',
-                                    showCancelButton: true,
-                                    confirmButtonColor: '#3085d6',
-                                    cancelButtonColor: '#d33',
-                                    confirmButtonText: 'Yes',
-                                    cancelButtonText: 'No'
-                                }).then((result) => {
-                                    if (result.value) {
-                                        document.location.href = "{{ route('permainan.index', 1) }}"
-                                    } else {
-                                        document.location.href = "{{ route('home') }}"; 
-                                    }
-                                });
-                        } else {
-                            alert("GAGAL");
-                        }
-                    }
-                });
-            });
-
-            $('#btn_tampil').click(function (e) { 
-                if (drawStatus) {
-                    $(this).css('display', 'none');
-                    $('#img_tampil').css('display', 'block');
-                    // $('#can_dua').css('display', 'block');
-                } else {
-                    alert("Selesaikan Diagram Dahulu");
-                }
-            });
-
-            // canvas 1
-            var myCanvas = document.getElementById("can_satu");
-            myCanvas.width = 300;
-            myCanvas.height = 300;
-            var ctx = myCanvas.getContext("2d");
-
-            var totalDegreeTempe = 0;
-            var totalDegreeBebek = 0;
-            var totalDegreePanggang = 0;
-            var totalDegreeGoreng = 0;
-            let drawStatus = false;
-
-            function drawArc(ctx, centerX, centerY, radius, startAngle, endAngle){
-                ctx.beginPath();
-                ctx.arc(centerX, centerY, radius, startAngle, endAngle);
-                ctx.stroke();
-            }
-
-            function drawPieSlice(ctx,centerX, centerY, radius, startAngle, endAngle, color ){
-                //newEndAngle = startAngle + endAngle;
-                ctx.fillStyle = color;
-                ctx.beginPath();
-                ctx.moveTo(centerX,centerY);
-                ctx.arc(centerX, centerY, radius, startAngle, endAngle);
-                ctx.closePath();
-                ctx.fill();
-            }
-
-            function resetDraw(startAngle, endAngle) {
-                drawPieSlice (ctx, 150, 150, 150, startAngle, endAngle, 'white');
-            }
-
-            calRadius = num => {
-                return (Math.PI / 180) * num;
-            }
-
-            function rubahStatus(degEnd) {
-                drawStatus = degEnd == 360 ? true : false;
-            }
-
-            // draw circle
-            drawArc(ctx, 150,150,150, 0, 360);
-
-            $('#tempe_akhir').blur(function (e) {
-                let degStart = parseInt($('#tempe_awal').val()); 
-                let degEnd = parseInt($(this).val());
-                
-                resetDraw(calRadius(degStart), 360);
-                totalDegreeTempe = 0;
-                
-                if (degEnd < degStart) {
-                    alert('derajat akhir harus lebih besar');  
-                } else {
-                    drawPieSlice(ctx, 150,150,150, calRadius(degStart), calRadius(degEnd), 'magenta');
-                    totalDegreeTempe = degEnd - degStart;
-
-                    rubahStatus(degEnd);
-                }
-            });
-            $('#bebek_akhir').blur(function (e) { 
-                let degStart = parseInt($('#bebek_awal').val()); 
-                let degEnd = parseInt($(this).val());
-                
-                resetDraw(calRadius(degStart), 0);
-                totalDegreeBebek = 0;
-
-                if (degEnd < degStart) {
-                    alert('derajat akhir harus lebih besar');  
-                } else {
-                    drawPieSlice(ctx, 150,150,150, calRadius(degStart), calRadius(degEnd), 'blue');
-                    totalDegreeBebek = degEnd - degStart;
-
-                    rubahStatus(degEnd);
-                }
-            });
-            $('#ayam_panggang_akhir').blur(function (e) { 
-                let degStart = parseInt($('#ayam_panggang_awal').val()); 
-                let degEnd = parseInt($(this).val());
-                
-                resetDraw(calRadius(degStart), 0);
-                totalDegreePanggang = 0;
-                
-                if (degEnd < degStart) {
-                    alert('derajat akhir harus lebih besar');  
-                } else {
-                    drawPieSlice(ctx, 150,150,150, calRadius(degStart), calRadius(degEnd), 'red');
-                    totalDegreePanggang = degEnd - degStart;
-
-                    rubahStatus(degEnd);
-                }
-            });
-            $('#ayam_goreng_akhir').blur(function (e) { 
-                let degStart = parseInt($('#ayam_goreng_awal').val()); 
-                let degEnd = parseInt($(this).val());
-                
-                resetDraw(calRadius(degStart), 0);
-                totalDegreeGoreng = 0;
-
-                if (degEnd < degStart) {
-                    alert('derajat akhir harus lebih besar');  
-                } else {
-                    drawPieSlice(ctx, 150,150,150, calRadius(degStart), calRadius(degEnd), 'yellow');
-                    totalDegreeGoreng = degEnd - degStart;
-
-                    rubahStatus(degEnd);
-                }
-            });
-        });
-    </script> --}}
 @endsection
