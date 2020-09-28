@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PAUS - Game Edukasi</title>
+    <title>Pembelajaran Ruang Bangun</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('frontend/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -126,25 +126,27 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Contact Us</h3>
-                        <p><b>Email :</b><br>aaaa@gmail.com</p>
+                        <p><b>Risma Latiful Azza</b></p>
+                        <p><b>Email :</b><br>latifulazza11@gmail.com</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Atau Informasi Lain</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://www.facebook.com/nadia.farah.334491" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <img src="{{ asset('img/logo-2.png') }}" alt="UIN" class="img-responsive" width="180px;">
                             </li>
                             <li>
-                                <a href="https://twitter.com/NDiFarah" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/ndifarah/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                                <img src="{{ asset('img/logo-4.png') }}" alt="PGMI" class="img-responsive" width="130px;">
                             </li>
                         </ul>
+                        <p>
+                            Jurusan Pendidikan Guru Madrasah Ibtidaiyah (PGMI)<br/>
+                            Fakultas Ilmu Tarbiyah dan Keguruan<br/>
+                            Universitas Islam Negeri Maulana Malik Ibrahim Malang
+                        </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Tentang Game</h3>
-                        <p>Penjelasan tentang gamenya</p>
+                        <p>Media Pembelajaran Interaktif Untuk Meningkatkan Pemahaman Konsep</p>
                     </div>
                 </div>
             </div>
