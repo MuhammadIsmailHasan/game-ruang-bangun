@@ -16,12 +16,6 @@ class NilaiTertinggiController extends Controller
      */
     public function index(Request $request, NilaiService $nilaiService)
     {
-        $filter = [];
-        if ($request->has('search_ronde')) {
-            if ($request->search_ronde != 0) {
-                $filter['ronde'] = $request->search_ronde;
-            }
-        }
 
         $filter['order_by_desc'] = 'skor';
         $filter['status'] = 1;
@@ -29,7 +23,7 @@ class NilaiTertinggiController extends Controller
         
         foreach ($nilai as $key => $value) {
             $value['tanggal'] = Carbon::createFromFormat('Y-m-d H:i:s', $value->created_at)
-                            ->format('d-m-Y');
+                            ->format('d-m-Y H:i');
         }
 
         return view($this->path . '.index', [

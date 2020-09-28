@@ -13,13 +13,9 @@ class PermainanController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(int $rondeId)
+    public function index()
     {
-        if ($rondeId == 1 ) {
-            $this->path = 'permainan-pertama';
-        } else {
-            $this->path = 'permainan-kedua';
-        }
+        $this->path = 'permainan-pertama';
 
         return view($this->path . '.index');
     }

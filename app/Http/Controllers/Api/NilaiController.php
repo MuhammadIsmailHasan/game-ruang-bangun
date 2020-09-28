@@ -6,14 +6,14 @@ use App\Libs\Services\NilaiService;
 use App\Libs\Services\UserService;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use App\Libs\Traits\SetSebutan;
 use App\Nilai;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+// use App\Libs\Traits\SetSebutan;
 
 class NilaiController extends Controller
 {
-    use SetSebutan;
+    // use SetSebutan;
 
     /**
      * Display a listing of the resource.
@@ -48,28 +48,21 @@ class NilaiController extends Controller
         $data = $request->except('user_id');
         $userId = $request->user_id;
 
-        $data['sebutan'] = $this->SetSebutan($request->skor);
-        $response = [
-            'sebutan' => $data['sebutan']
-        ];
-
         DB::transaction(function () use (&$data, &$userId, $userService, $nilaiService){
-            if ($data['ronde'] == 1) {
-                $userService->updateUser(['status_ronde_1' => 1], $userId);
-            } else {
-                $userService->updateUser(['status_ronde_2' => 1], $userId);
-            }
+
+            $userService->updateUser(['status_evaluasi' => 1], $userId);
 
             $data['user_id'] = $userId;
             $nilai = $nilaiService->create($data);
 
             $status = true;
             $msg = "Berhasil Update Data";
+            
         });
 
         return response()->json([
             'status' => true,
-            'data' => $response,
+            'data' => "",
             'msg' => $msg
         ]);
         

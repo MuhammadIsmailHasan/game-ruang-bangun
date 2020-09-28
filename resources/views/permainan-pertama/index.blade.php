@@ -616,8 +616,8 @@
 
             ];
 
-            const CORRECT_BONUS = 10;
-            const MAX_QUESTIONS = 25;
+            const CORRECT_BONUS = 2;
+            const MAX_QUESTIONS = 50;
 
             startGame = () => {
                 questionCounter = 0;
@@ -703,8 +703,6 @@
                     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                    console.log("oke");
-
                     if (distance < 0) {
                         clearInterval(doTimer);
                         if (!clickSimpan) {
@@ -721,8 +719,8 @@
 
             $('#btn_simpan').click(function (e) { 
                 clearCard();
-                questionCounter = 10;
                 clickSimpan = true;
+                //questionCounter = 10;
 
                 doSave();
             });
@@ -733,23 +731,21 @@
                     url: "{{ route('nilai-api.store') }}",
                     data: {
                         "user_id" : userId,
-                        'skor' : score,
-                        'ronde' : 2
+                        'skor' : score
                     },
                     dataType: "JSON",
                     success: function (response) {
-                        let data = response.data;
-                        
+                        // let data = response.data;
                         if (response.status) {
                             Swal.fire({
-                                title: data.sebutan,
-                                text: 'Selamat, Ronde 2 telah di Selesaikan',
-                                imageUrl: `{{ asset('img/soal/`+ data.sebutan +`.gif') }}`,
+                                title: 'Selamat',
+                                text: 'Telah menyelesaikan evaluasi',
+                                imageUrl: `{{ asset('img/soal/yes.gif') }}`,
                                 imageWidth: 400,
                                 imageHeight: 200,
-                                imageAlt: 'Gambar ',
+                                imageAlt: 'Gambar',
                             }).then((result) => {
-                                
+                                document.location.href = "{{ route('profil.index') }}"; 
                             })
                         } else {
                             alert("GAGAL");

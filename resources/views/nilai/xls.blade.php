@@ -3,9 +3,9 @@
         <tr>
             <th>No.</th>
             <th>Nama Siswa</th>
-            <th>Permainan</th>
-            <th>Skor</th>
-            <th>Sebutan</th>
+            <th>Kelas</th>
+            <th>Sekolah</th>
+            <th>Nilai</th>
             <th>Tanggal Main</th>
         </tr>
     </thead>
@@ -14,9 +14,9 @@
             <tr>
                 <td>{{ $loop->iteration }}</td>
                 <td>{{ $item->user->name }}</td>
-                <td>{{ $item->ronde }}</td>
+                <td>{{ $item->user->kelas }}</td>
+                <td>{{ $item->user->sekolah }}</td>
                 <td>{{ $item->skor }}</td>
-                <td>{{ $item->sebutan }}</td>
                 <td>{{ $item->tanggal }}</td>
             </tr>
         @endforeach

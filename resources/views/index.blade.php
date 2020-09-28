@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="col-sm-6 portfolio-item">
-                    <a href="{{ route('permainan.index', 1) }}" class="portfolio-link"  id="evaluasi">
+                    <a href="{{ route('permainan.index') }}" class="portfolio-link"  id="evaluasi">
                         <div class="caption portfolio-link">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>

@@ -11,37 +11,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    {!! Form::open(['method' => 'GET', 'url' => 'nilai', 'class' => 'form-horizontal', 'id'=>'form_pencarian', 'role' => 'search'])  !!}
-                        <div class="form-group">
-                            <label class="col-md-2 control-label">Berdasarkan Permainan</label>
-                            <div class="col-md-3">
-                                <select name="search_ronde" id="search_ronde" class="form-control">
-                                    <option value="0">All</option>
-                                    <option value="1">Ronde 1</option>
-                                    <option value="2">Ronde 2</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <button id="btn_cari" class="btn btn-success waves-effect waves-light" type="submit">
-                                    Cari Data
-                                </button>
-                                <button id="btn_batal" type="reset" class="btn btn-default waves-effect waves-light m-l-5">
-                                    Batal
-                                </button>
-                            </div>
-                        </div>
-                    {!! Form::close() !!}
-                </div><!-- end col -->
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
                     <div class="custom-card">
                         <div class="row">
                             <div class="col-md-10">
                                 <h4 class="header-title m-t-0 m-b-10">Daftar Nilai Siswa</h4>
                             </div>
                             <div class="col-md-2">
-                                <a href="{{ route('nilai-export', $ronde_type) }}" type="button" class="btn btn-success" style="float: right">
+                                <a href="{{ route('nilai-export') }}" type="button" class="btn btn-success" style="float: right">
                                     <i class="fa fa-print"></i>  Export Excel
                                 </a>
                             </div>
@@ -53,9 +29,9 @@
                                     <tr>
                                         <th style="width: 5%;">No.</th>
                                         <th style="width: 35%;">Nama Siswa</th>
-                                        <th>Permainan</th>
-                                        <th>Skor</th>
-                                        <th>Sebutan</th>
+                                        <th>Kelas</th>
+                                        <th>Sekolah</th>
+                                        <th>Nilai</th>
                                         <th>Tanggal</th>
                                         <th>Status</th>
                                         <th style="width: 2%;">Action</th>
@@ -67,9 +43,9 @@
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
                                                 <td>{{ $value->user->name }}</td>
-                                                <td>Ronde {{ $value->ronde }}</td>
+                                                <td>{{ $value->user->kelas }}</td>
+                                                <td>{{ $value->user->sekolah }}</td>
                                                 <td>{{ $value->skor }}</td>
-                                                <td>{{ $value->sebutan }}</td>
                                                 <td>{{ $value->tanggal }}</td>
                                                 <td>
                                                     @if ($value->status == 1)
@@ -80,7 +56,7 @@
                                                 </td>
                                                 <td>
                                                     @if ($value->status == 1)
-                                                        <a href="{{ route('nilai-delete', $value->id) }}" class="btn btn-danger btn-sm tombol-hapus">
+                                                        <a href="{{ route('nilai-delete', $value->id) }}" class="btn btn-danger btn-sm tombol-hapus" title="Nonaktifkan nilai">
                                                             <i class="fa fa-trash"></i>
                                                         </a>
                                                     @else
@@ -88,7 +64,7 @@
                                                             @csrf
                                                             @method('PUT')
                                                             <input type="hidden" name="status" value="1">
-                                                            <button class="btn btn-primary btn-sm" type="submit"><i class="fa fa-check"></i></button>
+                                                            <button class="btn btn-primary btn-sm" type="submit" title="Aktifkan nilai"><i class="fa fa-check"></i></button>
                                                         </form>
                                                     @endif
                                                 </td>

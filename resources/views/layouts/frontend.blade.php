@@ -56,7 +56,9 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="{{ route('home') }}">PAUS</a>
+                <a class="navbar-brand" href="{{ route('home') }}" style="padding: 0 15px 0 15px;">
+                    <img src="{{ asset('img/logo.png') }}" alt="UIN" class="img-responsive" width="80px;">
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,15 +71,17 @@
                         <a href="{{ route('home') }}">MENU</a>
                     </li>
 
+                    @can('permainan_read')
+                        <li class="page-scroll">
+                            <a href={{ route('permainan.index') }}>EVALUASI</a>
+                        </li>
+                    @endcan
+
                     @can('nilai_tertinggi_read')
                         <li class="page-scroll">
                             <a href={{ route('nilai-tertinggi.index') }}>NILAI TERTINGGI</a>
                         </li>
-                        @endcan
-                        
-                    <li class="page-scroll">
-                        <a href={{ route('tujuan.index') }}>KD, IPK DAN TUJUAN</a>
-                    </li>
+                    @endcan
                     
                     @can('daftar_nilai_read')
                         <li class="page-scroll">
@@ -88,12 +92,6 @@
                     @can('daftar_siswa_read')
                         <li class="page-scroll">
                             <a href="{{ route('siswa.index') }}">DAFTAR SISWA</a>
-                        </li>
-                    @endcan
-
-                    @can('angket_read')
-                        <li class="page-scroll">
-                            <a href="{{ route('angket-showall') }}">DAFTAR ANGKET RESPON</a>
                         </li>
                     @endcan
 
@@ -128,7 +126,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Contact Us</h3>
-                        <p><b>Email :</b><br>ndifarah@gmail.com</p>
+                        <p><b>Email :</b><br>aaaa@gmail.com</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Atau Informasi Lain</h3>
@@ -146,7 +144,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Tentang Game</h3>
-                        <p>PAUS (Play Around Statistic) <br> merupakan salah satu media pembelajaran yang berisikan materi dan kuis mengenai penyajian data dalam diagram lingkaran untuk membantu siswa belajar secara mandiri.</p>
+                        <p>Penjelasan tentang gamenya</p>
                     </div>
                 </div>
             </div>

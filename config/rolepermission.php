@@ -46,14 +46,6 @@ return [
             'name' => 'profil_read',
             'label' => 'Profil Read',
         ],
-        'angket_read' => [
-            'name' => 'angket_read',
-            'label' => 'Angket Read',
-        ],
-        'angket_update' => [
-            'name' => 'angket_update',
-            'label' => 'Angket Update',
-        ],
     ],
 
     'roles' => [
@@ -74,7 +66,6 @@ return [
                 'daftar_siswa_read',
                 'daftar_siswa_update',
                 'daftar_siswa_delete',
-                'angket_read',
             ],
         ],
         'siswa' => [
@@ -85,7 +76,6 @@ return [
                 'permainan_read',
                 'nilai_tertinggi_read',
                 'profil_read',
-                'angket_update',
             ],
         ],
     ],

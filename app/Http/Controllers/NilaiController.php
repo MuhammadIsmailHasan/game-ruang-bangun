@@ -21,14 +21,6 @@ class NilaiController extends Controller
     {
         $filter = [];
 
-        $ronde = 0;
-        if ($request->has('search_ronde')) {
-            if ($request->search_ronde != 0) {
-                $filter['ronde'] = $request->search_ronde;
-                $ronde = $request->search_ronde;
-            }
-        }
-
         $nilai = $nilaiService->get($filter);
         
         foreach ($nilai as $key => $value) {
@@ -37,8 +29,7 @@ class NilaiController extends Controller
         }
 
         return view($this->path . '.index', [
-            'data' => $nilai,
-            'ronde_type' => $ronde
+            'data' => $nilai
         ]);
     }
 
@@ -114,17 +105,13 @@ class NilaiController extends Controller
         return Redirect::to($this->path)->withSuccess('Berhasil Menghapus Nilai');
     }
 
-    public function export($jenisRonde, nilaiService $nilaiService) 
+    public function export(nilaiService $nilaiService) 
     {
         $date = Carbon::now()->format('d-m-Y');
         $filter = [
             'status' => 1
         ];
-
-        if ($jenisRonde != 0) {
-            $filter['ronde'] = $jenisRonde;
-        }
-
+        
         $nilai = $nilaiService->get($filter);
         foreach ($nilai as $key => $value) {
             $value['tanggal'] = Carbon::createFromFormat('Y-m-d H:i:s', $value->created_at)

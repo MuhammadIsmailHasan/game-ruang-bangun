@@ -18,9 +18,9 @@
                                     <tr>
                                         <th style="width: 5%;">No.</th>
                                         <th style="width: 40%;">Nama Siswa</th>
-                                        <th>Status Materi</th>
-                                        <th>Status Ronde 1</th>
-                                        <th>Status Ronde 2</th>
+                                        <th>Kelas</th>
+                                        <th>Sekolah</th>
+                                        <th>Status Evaluasi</th>
                                         <th style="width: 2%;">Action</th>
                                     </tr>
                                 </thead>
@@ -29,9 +29,9 @@
                                         <tr>
                                             <td>{{ $loop->iteration }}</td>
                                             <td>{{ $value->name }}</td>
-                                            <td>{{ $value->status_materi == 1 ? 'Sudah Selesai' : 'Belum Selesai' }}</td>
-                                            <td>{{ $value->status_ronde_1 == 1 ? 'Sudah Selesai' : 'Belum Selesai' }}</td>
-                                            <td>{{ $value->status_ronde_2 == 1 ? 'Sudah Selesai' : 'Belum Selesai' }}</td>
+                                            <td>{{ $value->kelas }}</td>
+                                            <td>{{ $value->sekolah }}</td>
+                                            <td>{{ $value->status_evaluasi == 1 ? 'Sudah Selesai' : 'Belum Selesai' }}</td>
                                             <td>
                                                 <a href="{{ route('siswa-delete', $value->id) }}" class="btn btn-danger btn-sm tombol-hapus">
                                                     <i class="fa fa-trash"></i>

@@ -33,25 +33,18 @@
                                     <input type="text" id="sekolah" name="sekolah" class="form-control" value="{{ $data->sekolah }}">
                                 </div>
                             </div>
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label class="col-md-4 control-label">Status Materi</label>
                                 <div class="col-md-6">
                                     <input type="text" id="status" name="status" class="form-control"
                                     value="{{ $data->status == 1 ? 'Sudah Selesai' : 'Belum Selesai'}}">
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="form-group">
-                                <label class="col-md-4 control-label">Status Ronde 1</label>
+                                <label class="col-md-4 control-label">Status Evaluasi</label>
                                 <div class="col-md-6">
                                     <input type="text" name="status" class="form-control"
-                                    value="{{ $data->status_ronde_1 == 1 ? 'Sudah Selesai' : 'Belum Selesai'}}">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">Status Ronde 2</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="status" class="form-control"
-                                    value="{{ $data->status_ronde_2 == 1 ? 'Sudah Selesai' : 'Belum Selesai'}}">
+                                    value="{{ $data->status_evaluasi == 1 ? 'Sudah Selesai' : 'Belum Selesai'}}">
                                 </div>
                             </div>
                         </form>
@@ -62,9 +55,7 @@
                                 <thead>
                                     <tr>
                                         <th>No.</th>
-                                        <th>Permainan</th>
-                                        <th>Skor</th>
-                                        <th>Sebutan Nilai</th>
+                                        <th>Nilai</th>
                                         <th>Tanggal</th>
                                         <th>Status</th>
                                     </tr>
@@ -73,9 +64,7 @@
                                     @foreach($data->nilai as $value)
                                         <tr>
                                             <td>{{ $loop->iteration }}</td>
-                                            <td>Ronde {{ $value->ronde }}</td>
                                             <td>{{ $value->skor }}</td>
-                                            <td>{{ $value->sebutan }}</td>
                                             <td>{{ $value->tanggal }}</td>
                                             <td>{{ $value->status == 0 ? 'Dihapus Admin' : 'Aktif' }}</td>
                                         </tr>

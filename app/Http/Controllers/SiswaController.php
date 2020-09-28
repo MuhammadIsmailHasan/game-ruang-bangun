@@ -105,9 +105,7 @@ class SiswaController extends Controller
 
             $user = $userService->updateUser([
                 'status' => 0,
-                'status_materi' => 0,
-                'status_ronde_1' => 0,
-                'status_ronde_2' => 0
+                'status_evaluasi' => 0,
             ], $id);
 
             foreach ($data->nilai as $key => $value) {

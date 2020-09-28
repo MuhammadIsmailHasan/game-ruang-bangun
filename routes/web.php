@@ -39,17 +39,15 @@ Route::group(['middleware' => 'auth'], function ()
 
     Route::group(['middleware' => 'roles', 'roles' => 'admin'], function () {
         Route::get('nilai-delete/{id}', 'NilaiController@destroy')->name('nilai-delete');
-        Route::get('nilai-export/{jenisRonde}', 'NilaiController@export')->name('nilai-export');
+        Route::get('nilai-export', 'NilaiController@export')->name('nilai-export');
         Route::resource('siswa', 'SiswaController');
         Route::get('siswa-delete/{id}', 'SiswaController@destroy')->name('siswa-delete');
-        Route::get('angket-showall', 'AngketController@showAll')->name('angket-showall');
-        Route::get('angket-export', 'AngketController@export')->name('angket-export');
     });
     
     Route::group(['middleware' => 'roles', 'roles' => 'siswa'], function () {
         Route::resource('nilai-tertinggi', 'NilaiTertinggiController');
         Route::resource('profil', 'ProfilController');
-        Route::get('permainan/{rondeId}', 'PermainanController@index')->name('permainan.index');
+        Route::get('permainan', 'PermainanController@index')->name('permainan.index');
     });
     
     Route::resource('nilai', 'NilaiController');
