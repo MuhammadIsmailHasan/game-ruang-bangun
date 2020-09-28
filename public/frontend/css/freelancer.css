@@ -507,7 +507,7 @@ fieldset[disabled] .btn-success.active {
 .custom-card {
   box-shadow: 2px 3px 8px 5px rgba(0, 0, 0, 0.2);       
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
   margin-top: 10px;
 }
 
@@ -710,5 +710,9 @@ sup {
 
 .latihan-salah {
   background-color: red;
+}
+
+.img-sedang {
+  width: 100px;
 }
 
