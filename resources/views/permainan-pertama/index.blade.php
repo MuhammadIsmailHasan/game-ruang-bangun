@@ -68,11 +68,7 @@
 @section('js')
     <script type="text/javascript">
         $(document).ready(function () { 
-            let now = new Date();
-            let later = new Date();
-            later.setHours(now.getHours() + 2);
-            // later.setSeconds(now.getSeconds() + 20);
-
+            var doTimer;
             var clickSimpan = false;
 
             let userId = '{{ Auth::user()->id }}';
@@ -685,6 +681,8 @@
             }
             
             $('#btn_mulai').click(function (e) { 
+                e.preventDefault();
+                
                 $('#header-game').css('display','none');
                 $('#soal-game').css('display','block');
                 $('#btn_simpan').css('display','block');
@@ -692,17 +690,20 @@
 
                 startGame();
                 setTimer();
-
-            });
+            }); 
 
             function setTimer() {
-                let doTimer = setInterval(function() {
+                let now = new Date();
+                let later = new Date();
+                later.setHours(now.getHours() + 2);
+
+                doTimer = setInterval(function() {
                     let distance = later.getTime() - new Date().getTime();
-                
+            
                     let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
+                    
                     if (distance < 0) {
                         clearInterval(doTimer);
                         if (!clickSimpan) {
@@ -717,7 +718,8 @@
                 }, 1000);
             }
 
-            $('#btn_simpan').click(function (e) { 
+            $('#btn_simpan').click(function (e) {
+                clearInterval(doTimer);
                 clearCard();
                 clickSimpan = true;
                 //questionCounter = 10;

@@ -27,12 +27,6 @@
     <link href="{{ asset('frontend/vendor/datatables/fixedHeader.bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('frontend/vendor/datatables/responsive.bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
 
-    {{-- reveal js --}}
-    {{-- <link href="{{ asset('frontend/revealjs/dist/reset.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('frontend/revealjs/dist/reveal.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('frontend/revealjs/dist/theme/white.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('frontend/revealjs/plugin/highlight/monokai.css') }}" rel="stylesheet" type="text/css" /> --}}
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -194,12 +188,6 @@
     
     {{-- Custom JS --}}
     <script src="{{ asset('js/custom-app.js') }}"></script>
-    
-    {{-- revealjs --}}
-    {{-- <script src="{{ asset('frontend/revealjs/dist/reveal.js') }}"></script>
-    <script src="{{ asset('frontend/revealjs/plugin/notes/notes.js') }}"></script>
-    <script src="{{ asset('frontend/revealjs/plugin/markdown/markdown.js') }}"></script>
-    <script src="{{ asset('frontend/revealjs/plugin/highlight/highlight.js') }}"></script> --}}
 
     <script>
         $('#logout').click(function (e) { 
