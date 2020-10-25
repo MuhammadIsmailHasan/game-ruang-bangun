@@ -28,7 +28,11 @@ class ProfilController extends Controller
         ]);
     }
 
-    /**
+    public function indexAuthor() {
+        return view($this->path . '.author');
+    }
+
+    /**s
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response

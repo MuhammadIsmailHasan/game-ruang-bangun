@@ -65,6 +65,10 @@
                         <a href="{{ route('home') }}">MENU</a>
                     </li>
 
+                    <li class="page-scroll">
+                        <a href="{{ route('tujuan.index') }}">TUJUAN</a>
+                    </li>
+
                     @can('permainan_read')
                         <li class="page-scroll">
                             <a href={{ route('permainan.index') }}>EVALUASI</a>
@@ -91,9 +95,13 @@
 
                     @can('profil_read')
                         <li class="page-scroll">
-                            <a href={{ route('profil.index') }}>PROFIL {{ Auth::user()->name }}</a>
+                            <a href={{ route('profil.index') }}>PROFIL SISWA</a>
                         </li>
                     @endcan
+
+                    <li class="page-scroll">
+                        <a href={{ route('profil.author') }}>PROFIL AUTHOR</a>
+                    </li>
 
                     <li class="page-scroll">
                         <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

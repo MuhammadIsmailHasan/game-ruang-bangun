@@ -63,7 +63,7 @@
                             <p>Kemudian jawablah pertanyaan di bawah ini!</p>
                             <div class="latihan">
                                 <div class="soal">
-                                    <p>1. Ana membuat sebuah cake, namun cake yang ia buat semua bagian sisinya gosong. Ia ingin potong bagian sisinya. Maka berapa dan mana saja sisi yang harus dipotong?</p>
+                                    <p>1. Ana memiliki seorang adik yang akan berulang tahun. Ia membuatkan sebuah cake dan menghiasnya cake dengan cantik. Bagian mana saja yang akan dihias?</p>
                                 </div>
                                 <div class="pilihan radio-group" data-jawaban="d">
                                     <div class="radio">
@@ -83,14 +83,16 @@
                                     </div>
                                     <div class="radio">
                                         <label><input type="radio" name="1" value="d">
-                                            &nbsp;d. Kiri, kanan, depan, belakang, dan atas, bawah
+                                            &nbsp;d. Kiri, kanan, depan, belakang, dan atas
                                         </label>
                                     </div>
                                 </div>
                             </div>
                             <div class="latihan">
                                 <div class="soal">
-                                    <p>2. Adi akan membuat prakarya yang berbentuk kerangka kubus dengan menggunakan bahan bambu, berapa bambu yang dibutuhkan agar prakaryanya menjadi kerangka kubus?</p>
+                                    <p>
+                                        2. Adi akan membuat prakarya yang berbentuk kerangka kubus dengan menggunakan bahan bambu. Lalu bambu tersebut dipotong-potong menjadi beberapa bagian. Berapa potong bambu yang dibutuhkan untuk membentuk kerangka kubus?
+                                    </p>
                                 </div>
                                 <div class="pilihan radio-group" data-jawaban="d">
                                     <div class="radio">
@@ -117,22 +119,24 @@
                             </div>
                             <div class="latihan">
                                 <div class="soal">
-                                    <p>3. Seorang pengamat akan melakukan pengamatan di sebuah ruangan yang berbentuk kubus. Agar pengamatan berjalan dengan baik, maka ia membutuhkan penerangan yang cukup. Lalu ia menaruh lampu disetiap sudut ruang tersebut. Berapa lampu yang dibutuhkan untuk menerangi ruangan tersebut?</p>
+                                    <p>
+                                        3.	Seorang pengamat akan melakukan pengamatan di sebuah ruangan yang berbentuk kubus. Agar pengamatan berjalan dengan baik, maka ia membutuhkan penerangan yang cukup. Lalu ia menaruh lampu disetiap sudut ruang bagian atas tersebut. Berapa lampu yang dibutuhkan untuk menerangi ruangan tersebut?
+                                    </p>
                                 </div>
-                                <div class="pilihan radio-group" data-jawaban="d">
+                                <div class="pilihan radio-group" data-jawaban="a">
                                     <div class="radio">
                                         <label><input type="radio" name="3" value="a">
-                                            &nbsp;a. 7
+                                            &nbsp;a. 4
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label><input type="radio" name="3" value="b">
-                                            &nbsp;b. 8
+                                            &nbsp;b. 6
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label><input type="radio" name="3" value="c">
-                                            &nbsp;c. 9
+                                            &nbsp;c. 8
                                         </label>
                                     </div>
                                     <div class="radio">
@@ -150,18 +154,21 @@
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
                             <p>Berdasarkan slide sebelumnya, dapat disimpulkan bahwa:
-                                "Kubus adalah bangun ruang tiga dimensi yang dibatasi oleh enam buah sisi yang kongruen berbentuk persegi."
+                                "Kubus adalah bangun ruang tiga dimensi yang dibatasi oleh 6 sisi yang kongruen berbentuk persegi."
                             </p>
                             <p>Sifat-sifat kubus: <br/>
-                                1.	Memiliki 6 buah sisi yang sama besar: ABCD = EFGH = ABFE = CDGH = BCGF = ADHE.<br/>
+                                1.	Memiliki 6 sisi yang sama besar: ABCD = EFGH = ABFE = CDGH = BCGF = ADHE.<br/>
                                 2.	Memiliki 12 rusuk yang sama panjang: AB = BC = CD = AD = EF = FG = GH = HE = EA = HD = FB = GC.<br/>
-                                3.	Memiliki 8 buah titik sudut yang sama besar: &ltA = &ltB = &ltC = &ltD = &ltE = &ltF = &ltG = &ltH = 90 derajat.
+                                3.	Memiliki 8 titik sudut yang sama besar: &ltA = &ltB = &ltC = &ltD = &ltE = &ltF = &ltG = &ltH = 90 derajat.
                             </p>
                         </div>
                         <div id="kubus-5" class="kubus-content" style="display: none">
                             <p><b>C. JARING-JARING</b></p>
-                            <p>Perhatikan jaring-jaring di bawah ini!</p>
-                            <p>Apakah semua jaring-jaring di bawah ini adalah bangun yang sama? Carilah jaring-jaring yang membentuk bangun kubus!</p>
+                            <p>Perhatikan bangun kubus di bawah ini</p>
+                            <img src="{{ asset('img/materi/13-0.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>Berdasarkan gambar di atas, apakah semua jaring-jaring di bawah ini adalah bangun yang sama? Carilah jaring-jaring yang membentuk bangun kubus!</p>
                             <img src="{{ asset('img/materi/13.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
@@ -169,57 +176,66 @@
                         </div>
                         <div id="kubus-6" class="kubus-content" style="display: none">
                             <p><b>PENJELASAN!</b></p>
-                            <p>Berdasarkan jarring-jaring di atas dapat disimpulkan bahwa jaring-jaring kubus memiliki 6 buah bangun persegi yang sama besar.</p>
+                            <p>
+                                Berdasarkan jaring-jaring di atas dapat disimpulkan bahwa jaring-jaring kubus memiliki 6 bangun persegi sama besar yang saling berhubungan.
+                            </p>
                         </div>
                         <div id="kubus-7" class="kubus-content" style="display: none">
                             <p><b>D. LUAS PERMUKAAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
-                            <img src="{{ asset('img/materi/14.jpg') }}" alt="diagram 1" 
-                                class="img-responsive img-bordered"
-                                style="width: 200px">
-                            <p>Bangun Kubus memiliki 6 sisi yang sama besar yang berbentuk persegi seperti gambar di atas. </p>
-                            <img src="{{ asset('img/materi/15.png') }}" alt="diagram 1" 
+                            <p>
+                                Bangun Kubus memiliki 6 sisi yang sama besar yang berbentuk persegi seperti gambar di bawah ini
+                            </p>
+                            <img src="{{ asset('img/materi/14-0.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 400px">
-                            <p>Kemudian, jawablah pertanyaan di bawah ini! <br/>
-                                1. Teman Sarah akan berulang tahun, maka ia menyiapkan hadiah ulang tahun. Sarah menyiapkan sebuah kotak untuk menaruh hadiah ulang tahunnya. Kotak tersebut berbentuk kubus. Ia akan membungkus kadonya dengan kertas kado dipotong menjadi beberapa bagian sesuai sisi dari kotak kadonya. Namun kertas kado yang ia potong kurang besar. Lalu apa yang harus Sarah lakukan agar potongannya tepat dengan kotak kadonya?
+                            <p class="unmarg">
+                                Kubus memiliki 6 sisi yang berbentuk persegi, dan jika luas persegi = sisi × sisi, seperti gambar di atas maka, <br>
+                                Luas permukaan	= 6 × persegi 
                             </p>
+                            <ul class="unbull">
+                                <li>= 6 × sisi × sisi</li>
+                                <li>= 6 × s<sup>2</sup></li>
+                            </ul>
                         </div>
                         <div id="kubus-8" class="kubus-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
-                            <p>Perhatikan gambar di bawah ini!</p>
-                            <img src="{{ asset('img/materi/16.jpg') }}" alt="diagram 1" 
-                                class="img-responsive img-bordered"
-                                style="width: 200px">
-                            <p>Kubus memiliki 6 sisi yang berbentuk persegi, dan jika luas persegi = sisi × sisi, seperti gambar di samping maka, <br/>
-                                Luas permukaan = 6 × persegi 
-                                = 6 × sisi × sisi
-                                = 6 × s2
-                            </p>
-                        </div>
-                        <div id="kubus-9" class="kubus-content" style="display: none">
                             <p><b>E. VOLUME</b></p>
-                            <p>Perhatikan gambar di bawah ini!</p>
-                            <img src="{{ asset('img/materi/17.jpg') }}" alt="diagram 1" 
-                                class="img-responsive img-bordered"
-                                style="width: 200px">
-                            <p>Kubus memiliki panjang, lebar, serta sisi tegak disebut tinggi yang memiliki panjang sama besar, seperti gambar di atas</p>
-                            <p>Jawablah pertanyaan di bawah ini! <br/>
-                                1.	Pak Andi akan mengukur volume air yang ada di sebuah drum yang berbentuk kubus. Air di dalam drum tersebut penuh. Agar pekerjaan Pak Andi lebih cepat untuk mengukur banyaknya air dalam drum tersebut. Apa yang sebaiknya Pak Andi lakukan agar pekerjaanya cepat? 
+                            <p>
+                                Cara menentukan volume pada kubus dapat menggunakan satu kubus satuan yang dijadikan acuan untuk kubus yang lain. Proses ini digambarkan pada gambar di bawah ini. Coba perhatikan dengan seksama!
                             </p>
-                        </div>
-                        <div id="kubus-10" class="kubus-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
-                            <p>Berdasarkan pertanyaan di atas bahwa Pak Andi harus menghitung volume dari drum. Drum memiliki bentuk kubus, jadi Pak Andi harus mencari volume kubus untuk mempercepat dalam mengukur banyaknya air. </p>
-                            <img src="{{ asset('img/materi/17.jpg') }}" alt="diagram 1" 
+                            <img src="{{ asset('img/materi/18.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
-                                style="width: 200px">
-                            <p>Kubus memiliki luas alas = panjang × lebar serta sisi tegak yang disebut tinggi.
-                                Dengan demikian, volume kubus sebagai berikut: <br/>
-                                Volume kubus = luas alas × tinggi = panjang × lebar × tinggi <br/>
-                                Karena kubus memiliki sisi yang sama panjang maka panjang = lebar = tinggi, sehingga: <br/>
-                                Volume kubus = s × s × s = s3
-                                </p>
+                                style="width: 400px">
+                            <p>
+                                Tumpukan kubus-kubus satuan itu membentuk kubus A.
+                            </p>
+                            <img src="{{ asset('img/materi/19.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Alas kubus A terdiri atas 3 × 3 = 9 kubus satuan. <br>
+                                Tinggi kubus A = 3 kubus satuan.<br>
+                                Jumlah seluruh kubus satuan = 3 × 9 = 27 kubus satuan.<br>
+                                Jadi, volume kubus A adalah 27 kubus satuan.<br>
+                                Selanjutnya perhatikan gambar kubus B di bawah ini!
+                            </p>
+                            <img src="{{ asset('img/materi/20.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
+                            <p>
+                                Kubus di atas adalah kubus dengan panjang rusuk 4 kubus satuan.<br>
+                                Jadi, dapat disimpulkan:<br>
+                                Volume kubus A dengan panjang sisi 3 kubus satuan = 3 × 3 × 3 = 27 kubus satuan.<br>
+                                Volume kubus B dengan panjang sisi 4 kubus satuan = 4 × 4 × 4 = 64 kubus satuan.
+                            </p>
+                            <p>
+                                Dengan demikian, berdasarkan penjelasan tentang kubus satuan di atas, dapat diambil kesimpulan bahwa 1 kubus satuan = 1 cm. Kubus memiliki panjang, lebar, dan tinggi yang besarnya sama, dapat disebut dengan sisi, seperti kubus A dan B di atas.
+                            </p>
+                            <p>
+                                Sehingga volume kubus adalah sebagai berikut: <br>
+                                Volume = s × s × s 
+                                            = s<sup>3</sup>
+                            </p>
                         </div>
 
                         <hr style="margin: 0;">
@@ -233,8 +249,6 @@
                                 <li class="page-item" data-jenis="kubus-6"><a class="page-link">6</a></li>
                                 <li class="page-item" data-jenis="kubus-7"><a class="page-link">7</a></li>
                                 <li class="page-item" data-jenis="kubus-8"><a class="page-link">8</a></li>
-                                <li class="page-item" data-jenis="kubus-9"><a class="page-link">9</a></li>
-                                <li class="page-item" data-jenis="kubus-10"><a class="page-link">10</a></li>
                             </ul>
                         </nav>
                     </nav>
@@ -352,18 +366,25 @@
                             <img src="{{ asset('img/materi/22.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 400px">
-                            <p>"Balok adalah sebuah bangun tiga dimensi yang memiliki sepasang bangun persegi yang saling berhadapan dan dua psang bangun persegi panjang"
+                            <p>
+                                "Balok adalah sebuah bangun tiga dimensi yang memiliki sepasang bangun persegi yang saling berhadapan dan dua pasang bangun persegi panjang"
                             </p>
                             <p>Sifat-sifat balok: <br/>
                                 1.	Memiliki sisi yang berhadapan sama besar: ABCD = EFGH, ABFE = CDGH, BCGF = ADHE.
                                 2.	Memiliki 12 rusuk yang sama panjang: AB = CD = EF = GH; BF = AE = CG = DH; BC = GF = AD = HE.
-                                3.	Memiliki 8 buah titik sudut yang sama besar: &ltp = &ltq = &ltr = &lts = &ltt = &ltu = &ltv = &ltw = 90 derajat.
+                                3.	Memiliki 8 titik sudut yang sama besar: &ltp = &ltq = &ltr = &lts = &ltt = &ltu = &ltv = &ltw = 90 derajat.
                             </p>
                         </div>
                         <div id="balok-5" class="balok-content" style="display: none">
                             <p><b>C. JARING-JARING</b></p>
-                            <p>Perhatikan jaring-jaring di bawah ini!</p>
-                            <p>Carilah jaring-jaring yang membentuk bangun balok!</p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/27-0.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Perhatikan jaring-jaring di bawah ini! <br>
+                                Berdasarkan gambar di atas, apakah semua jaring-jaring di bawah ini adalah bangun yang sama? Carilah jaring-jaring yang membentuk bangun balok!
+                            </p>
                             <img src="{{ asset('img/materi/25.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
@@ -371,54 +392,50 @@
                         </div>
                         <div id="balok-6" class="balok-content" style="display: none">
                             <p><b>PENJELASAN!</b></p>
-                            <p>Berdasarkan jarring-jaring di atas dapat disimpulkan bahwa jaring-jaring balok memiliki 6 buah bangun, 2 buah bangun persegi dan 4 buah bangun persegi Panjang</p>
+                            <p>
+                                Berdasarkan jaring-jaring di atas dapat disimpulkan bahwa jaring-jaring balok memiliki 6 bangun, 2 bangun persegi dan 4 bangun persegi panjang yang saling berhubungan.
+                            </p>
                         </div>
                         <div id="balok-7" class="balok-content" style="display: none">
                             <p><b>D. LUAS PERMUKAAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
-                            <p>Balok memiliki 3 pasang sisi, yaitu sisi atas = sisi bawah, sisi depan = sisi belakang, dan sisi kiri = sisi kanan.</p>
-                            <p>1. Doni diberikan tugas oleh guru untuk menentukan luas permukaan dari sebuah kardus seperti gambar di samping. Lalu Doni membongkar kardus tersebut dan mendapatkan 3 pasang sisi kardus yang ukurannya berbeda. Berapa luas permukaan kardus tersebut?</p>
-                            <img src="{{ asset('img/materi/26.png') }}" alt="diagram 1" 
+                            <img src="{{ asset('img/materi/27-0.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 400px">
-                        </div>
-                        <div id="balok-8" class="balok-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p>Balok memiliki 3 pasang sisi, yaitu sisi atas = sisi bawah, sisi depan = sisi belakang, dan sisi kiri = sisi kanan.</p> 
                             <img src="{{ asset('img/materi/27.jpg') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 400px">
                             <p>
-                                Balok memiliki 3 pasang sisi yang luasnya sama besar, yaitu sisi atas = sisi bawah; sisi depan = sisi belakang; dan sisi kiri = sisi kanan. Luas sisi balok berturut-turut adalah sebagai berikut: <br/>
-                                1.	Luas1 = 2 × (p × l) <br/>
-                                2.	Luas2 = 2 × (p × t) <br/>
-                                3.	Luas3 = 2 × (l × t) <br/>
-                                Sehingga luas permukaan balok adalah: <br/>
-                                Luas permukaan	= luas1 + luas2 + luas3
-                                    = [2 × (p × l)] + [2 × (p × t) + [2 × (l × t)]
-                                    = 2 × [(p × l) + (p × t) + (l × t)]
+                                Luas sisi balok berturut-turut adalah sebagai berikut: <br>
+                                1.	Luas1 (sisi atas = bawah) = 2 × (p × l) <br>
+                                2.	Luas2 (sisi depan = belakang) = 2 × (p × t)<br>
+                                3.	Luas3 (sisi kanan = kiri) = 2 × (l × t) <br>
                             </p>
+                            <p class="unmarg">
+                                Sehingga luas permukaan balok adalah: <br>
+                                Luas permukaan = luas1 + luas2 + luas3
+                            </p>
+                            <ul class="unbull">
+                                <li>= [2 × (p × l)] + [2 × (p × t)] + [2 × (l × t)] </li>
+                                <li>= 2 × [(p × l) + (p × t) + (l × t)] </li>
+                            </ul>
                         </div>
-                        <div id="balok-9" class="balok-content" style="display: none">
+                        <div id="balok-8" class="balok-content" style="display: none">
                             <p><b>E. VOLUME</b></p>
-                            <p>Perhatikan gambar di bawah ini!</p>
-                            <img src="{{ asset('img/materi/28.jpg') }}" alt="diagram 1" 
-                                class="img-responsive img-bordered"
-                                style="width: 400px">
-                            <p>Jika diperhatikan bangun kubus memiliki bentuk yang sama dengan bangun balok namun ada perbedaan antara keduanya, yaitu pada panjang. Berdasarkan jaring-jaring balok, tentukan volume dari bangun balok?</p>
-                        </div>
-                        <div id="balok-10" class="balok-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
-                            <img src="{{ asset('img/materi/29.jpg') }}" alt="diagram 1" 
+                            <p>
+                                Cara menentukan volume pada balok dapat menggunakan satu balok satuan yang dijadikan acuan untuk balok yang lain. Proses ini digambarkan pada gambar di bawah ini. Coba perhatikan dengan seksama!
+                            </p>
+                            <img src="{{ asset('img/materi/28-0.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 400px">
                             <p>
-                                Bangun balok memiliki luas alas yang berbentuk persegi panjang dan luas persegi panjang = p × l <br/>
-                                Sehingga volume balok adalah sebagai berikut: <br/>
-                                Volume 	= luas alas × tinggi 
-                                = p × l × t
+                                Gambar di atas menunjukkan pembentukan berbagai balok dari balok satuan. Gambar (a) merupakan balok satuan, untuk membuat gambar (b) dibutuhkan 2 × 2 × 2 = 8 balok satuan, sedangkan untuk membuat gambar (c) dibutuhkan 3 × 2 × 3 = 18 balok satuan. <br>
+                                Dengan demikian, volume atau isi suatu balok dapat ditentukan dengan cara mengalikan banyaknya balok satuan pada panjang, lebar, dan tinggi.<br>
+                                Sehingga volume balok adalah sebagai berikut: <br>
+                                Volume  = p × l × t 
                             </p>
                         </div>
-
 
                         <hr style="margin: 0;">
                         <nav aria-label="Page navigation example" class="halaman text-center">
@@ -431,8 +448,6 @@
                                 <li class="page-item" data-jenis="balok-6"><a class="page-link">6</a></li>
                                 <li class="page-item" data-jenis="balok-7"><a class="page-link">7</a></li>
                                 <li class="page-item" data-jenis="balok-8"><a class="page-link">8</a></li>
-                                <li class="page-item" data-jenis="balok-9"><a class="page-link">9</a></li>
-                                <li class="page-item" data-jenis="balok-10"><a class="page-link">10</a></li>
                             </ul>
                         </nav>
                     </nav>
@@ -442,11 +457,13 @@
                     <nav id="prisma" class="content" style="display: none">
                         <div id="prisma-1" class="prisma-content">
                             <p><b>A. DEFINISI</b></p>
-                            <p>Perhatikan bangun di bawah ini!</p>
-                            <img src="{{ asset('img/materi/31.png') }}" alt="diagram 1" 
+                            <p>Amati gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/31-0.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
-                            <p>Apa perbedaan diantara bangun-bangun di atas?</p>
+                            <p>Dari gambar di atas, pilahlah gambar mana yang termasuk ke dalam prisma! 
+                                Apa perbedaan dari bangun tersebut!
+                            </p>
                         </div>
                         <div id="prisma-2" class="prisma-content" style="display: none;" >
                             <p><b>PENJELASAN!</b></p>
@@ -568,12 +585,19 @@
                         </div>
                         <div id="prisma-5" class="prisma-content" style="display: none">
                             <p><b>C. JARING-JARING</b></p>
-                            <p>Perhatikan jaring-jaring di bawah ini!</p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/34-0.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
+                                Perhatikan jaring-jaring di bawah ini!
+                                Berdasarkan gambar di atas, apakah semua jaring-jaring di bawah ini adalah bangun yang sama? Carilah jaring-jaring yang membentuk bangun prisma!
+                            </p>
                             <img src="{{ asset('img/materi/34.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
                             <p>
-                                Dari jaring-jaring di atas, manakah yang termasuk jaring-jaring prisma? <br/>
+                                Dari jaring-jaring di atas, manakah yang termasuk jaring-jaring prisma?<br>
                                 Berdasarkan jaring-jaring di atas, apa yang dapat kalian simpulkan?
                             </p>
                         </div>
@@ -581,26 +605,30 @@
                             <p><b>PENJELASAN!</b></p>
                             <p>
                                 Berdasarkan jaring-jaring di atas, dapat diambil kesimpulan bahwa: <br/>
-                                1.	Jaring-jaring prisma segitiga terdiri dari 3 buah persegi panjang dan 2 buah segitiga. <br/>
-                                2.	Jaring-jaring prisma segiempat terdiri dari 2 buah persegi di bagian alas dan tutup serta 4 buah persegi Panjang di bagian sisi tegak.
+                                1.	Jaring-jaring prisma segitiga terdiri dari 3 persegi panjang dan 2 segitiga yang saling berhubungan.<br/>
+                                2.	Jaring-jaring prisma segiempat terdiri dari 2 persegi di bagian alas dan tutup serta 4 persegi panjang di bagian sisi tegak yang saling berhubungan.
                             </p>
                         </div>
                         <div id="prisma-7" class="prisma-content" style="display: none">
                             <p><b>D. LUAS PERMUKAAN</b></p>
-                            <p>Kerjakan pertanyaan berikut ini!</p>
+                            <p>Perhatikan gambar di bawah ini!</p>
+                            <img src="{{ asset('img/materi/35-0.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 400px">
                             <p>
-                                3.	Adi sedang membongkar sebuah kardus berbentuk prisma segitiga dan segiempat menjadi sebuah lembaran. Bangun prisma memiliki bagian alas, tutup, dan bidang tegak. Berdasarkan itu Adi menghitung luas dari lembaran kardus tersebut. Bagaimanakah Adi menghitung luas dari lembaran tersebut?
+                            <p class="unmarg">
+                                Bangun prisma memiliki bagian alas KLM, tutup PON, dan bidang tegak KLOP, MNOL, dan KMNP, besar alas = tutup. Dengan demikian, luas permukaan dapat ditulis sebagai berikut: <br>
+                                Luas permukaan	= luas LKPO  + luas LMNO + luas KMNP + luas KLM + luas PON
                             </p>
+                            <ul class="unbull">
+                                <li>= (KL × LO) + (ML × LO) + (MK × KP) + (2 × luas KLM)</li>
+                                <li>= (2 × luas KLM) + (KL × LO) + (ML × LO) + (MK × LO)</li>
+                                <li>= (2 × luas KLM) + [(KL + ML + MK) × LO]</li>
+                                <li>= (2 × luas KLM) + (Keliling KLM) × tinggi</li>
+                                <li>= (2 × luas KLM) + Keliling alas × tinggi</li>
+                            </ul>
                         </div>
                         <div id="prisma-8" class="prisma-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
-                            <p>
-                                Luas dari lembaran sama dengan luas permukaan dan bangun prisma memiliki bagian alas, tutup, dan bidang tegak. Dengan demikian, luas permukaan dapat ditulis sebagai berikut: <br/>
-                                Luas permukaan	= luas alas + luas tutup + jumlah luas bidang tegak 
-                                = luas alas + luas alas + jumlah luas sisi-sisi tegak
-                            </p>
-                        </div>
-                        <div id="prisma-9" class="prisma-content" style="display: none">
                             <p><b>E. VOLUME</b></p>
                             <p>Perhatikan bangun prisma segiempat di bawah ini!</p>
                             <img src="{{ asset('img/materi/35.jpg') }}" alt="diagram 1" 
@@ -611,7 +639,7 @@
                                 Lalu bagaimana jika kita ubah alas dan tutupnya dengan bentuk segitiga atau segilima menjadi bagaimanakah rumusnya? Jelaskan!
                             </p>
                         </div>
-                        <div id="prisma-10" class="prisma-content" style="display: none">
+                        <div id="prisma-9" class="prisma-content" style="display: none">
                             <p><b>PENJELASAN!</b></p>
                             <img src="{{ asset('img/materi/36.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -637,7 +665,6 @@
                                 <li class="page-item" data-jenis="prisma-7"><a class="page-link">7</a></li>
                                 <li class="page-item" data-jenis="prisma-8"><a class="page-link">8</a></li>
                                 <li class="page-item" data-jenis="prisma-9"><a class="page-link">9</a></li>
-                                <li class="page-item" data-jenis="prisma-10"><a class="page-link">10</a></li>
                             </ul>
                         </nav>
                     </nav>
@@ -648,7 +675,7 @@
                         <div id="limas-1" class="limas-content">
                             <p><b>A. DEFINISI</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
-                            <img src="{{ asset('img/materi/31.png') }}" alt="diagram 1" 
+                            <img src="{{ asset('img/materi/41.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
                             <p>
@@ -699,8 +726,13 @@
                         </div>
                         <div id="limas-5" class="limas-content" style="display: none">
                             <p><b>C. JARING-JARING</b></p>
+                            <p>Perhatikan gambar berikut ini!</p>
+                            <img src="{{ asset('img/materi/45-0.png') }}" alt="diagram 1" 
+                                class="img-responsive img-bordered"
+                                style="width: 600px">
+                            <p>
                             <p>Perhatikan jaring-jaring di bawah ini!</p>
-                            <p>Carilah jaring-jaring yang membentuk bangun balok!</p>
+                            <p>Berdasarkan gambar di atas, apakah semua jaring-jaring di bawah ini adalah bangun yang sama? Carilah jaring-jaring yang membentuk bangun limas!</p>
                             <img src="{{ asset('img/materi/45.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
@@ -713,28 +745,27 @@
                             <p><b>PENJELASAN!</b></p>
                             <p>
                                 Berdasarkan jaring-jaring di atas, dapat disimpulkan bahwa: <br/>
-                                1.	Jaring-jaring limas segiempat terdiri dari sebuah persegi yang berada di tengah dan 4 buah segitiga sama kaki yang sama besar. <br/>
-                                2.	Jaring-jaring limas segitiga terdiri dari 4 buah segitiga, 1 buah segitiga sama sisi sebalah alas dan 3 buah segitiga sama kaki sebagai sisi tegak.
+                                1.	Jaring-jaring limas segiempat terdiri dari sebuah persegi yang berada di tengah dan 4  segitiga sama kaki yang sama besar. <br/>
+                                2.	Jaring-jaring limas segitiga terdiri dari 4 segitiga, 1 segitiga sama sisi sebalah alas dan 3 segitiga sama kaki sebagai sisi tegak.
                             </p>
                         </div>
                         <div id="limas-7" class="limas-content" style="display: none">
                             <p><b>D. LUAS PERMUKAAN</b></p>
-                            <p>Jawablah pertanyaan berikut ini!</p>
-                            <p>Eva diberikan pekerjaan rumah oleh gurunya. Ia harus menghitung luas permukaan dari bangun limas berikut:</p>
+                            <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/46.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
-                            <p>Jadi, bagaimana cara Eva akan menghitung luas permukaan jaring-jaring di atas?</p>
-                        </div>
-                        <div id="limas-8" class="limas-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
-                            <p>
-                                Luas permukaan limas dapat dicari dengan menjumlahkan luas bangun datar yang ada pada jaring-jaring yang terbentuk.<br/>
-                                Sehingga, luas permukaan limas adalah: <br/>
-                                Luas permukaan	= luas alas + jumlah luas sisi tegak
+                            <p class="unmarg">
+                                Bangun limas memiliki bagian alas ABC dan bidang tegak ATB, ATC, dan BTC. Dengan demikian, luas permukaan dapat ditulis sebagai berikut: <br>
+                                Luas permukaan 	= luas I + luas II + luas III + luas IV
                             </p>
-                        </div>
-                        <div id="limas-9" class="limas-content" style="display: none">
+                            <ul class="unbull">
+                                <li>= luas ∆ ATB + luas ∆ ATC + luas ∆ ABC + luas ∆ BTC</li>
+                                <li>= luas ∆ ABC + luas ∆ ATB + luas ∆ ATC + luas ∆ BTC</li>
+                                <li>= luas alas + jumlah luas seluruh sisi tegaknya</li>
+                            </ul>
+                        </div>=
+                        <div id="limas-8" class="limas-content" style="display: none">
                             <p><b>E. VOLUME</b></p>
                             <p>Perhatikan bangun kubus dan limas di bawah ini!</p>
                             <img src="{{ asset('img/materi/47.png') }}" alt="diagram 1" 
@@ -744,7 +775,7 @@
                                 Jika alas kubus dan limas memiliki besar yang sama dan apabila bangun limas dimasukkan ke dalam kubus, serta titik T kita hubungkan ke seluruh titik sudut kubus apa yang kalian dapatkan?
                             </p>
                         </div>
-                        <div id="limas-10" class="limas-content" style="display: none">
+                        <div id="limas-9" class="limas-content" style="display: none">
                             <p><b>PENJELASAN!</b></p>
                             <p>
                                 Jika bangun limas dimasukkan ke dalam bangun kubus dan titik T dihubungkan ke semua titik sudut kubus, maka akan terbentuk 6 limas segiempat yang kongruen, seperti gambar di bawah ini:
@@ -754,13 +785,13 @@
                                 style="width: 400px">
                             <p>
                                 Bangun limas yang terbentuk yaitu T.ABCD, T.BCGF, T.CDHG, T.ADHE, T.ABFE, dan T.EFGH. <br/>
-                                Jika diketahui panjang rusuk kubus adalah s cm, maka tinggi limas adalah 1/2 s. Jadi limas 1/6 kali dari kubus, dapat disimpulkan volume limas adalah:
+                                Jika diketahui panjang rusuk kubus adalah <i>s</i> cm, maka tinggi limas adalah 1/2 <i>s</i>. Jadi limas 1/6 kali dari kubus, dapat disimpulkan volume limas adalah:
                             </p>
                             <p>
                                 Volume Limas <br/>
                                     = 1/6 × volume kubus <br/>
                                     = 1/6 × s3 <br/>
-                                    = 1/6 × s2 × s => s merupakan panjang rusuk kubus yang berarti juga tinggi limas = 1/2 s <br/>
+                                    = 1/6 × s2 × s => <i>s</i> merupakan panjang rusuk kubus yang berarti juga tinggi limas = 1/2 <i>s</i> <br/>
                                     = 1/6 × s2 × 1/2 s => 1/2 s merupakan tinggi limas dan s2 luas persegi <br/>
                                     = 1/6 × luas persegi (alas) × tinggi <br/>
                                     = 1/6 × luas alas × t
@@ -779,7 +810,6 @@
                                 <li class="page-item" data-jenis="limas-7"><a class="page-link">7</a></li>
                                 <li class="page-item" data-jenis="limas-8"><a class="page-link">8</a></li>
                                 <li class="page-item" data-jenis="limas-9"><a class="page-link">9</a></li>
-                                <li class="page-item" data-jenis="limas-10"><a class="page-link">10</a></li>
                             </ul>
                         </nav>
                     </nav>
@@ -839,7 +869,7 @@
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
                             <p>
-                                Pola-pola yang harus Budi buat untuk membuat topi ulang tahun adalah 1 buah lingkaran sebagai alas topi dan 1 buah bidang lengkung sebagai selimut topi.
+                                Pola-pola yang harus Budi buat untuk membuat topi ulang tahun adalah 1 lingkaran sebagai alas topi dan 1 bidang lengkung sebagai selimut topi.
                             </p>
                         </div>
                         <div id="kerucut-7" class="kerucut-content" style="display: none">
@@ -924,7 +954,7 @@
                                 style="width: 200px">    
                             <p>
                                 Berdasarkan gambar sebelumnya, benda-benda tersebut semua termasuk ke dalam tabung. Disini dapat disimpulkan bahwa: <br/>
-                                "Tabung adalah bangun ruang yang dibatasi oleh dua buah daerah lingkaran yang kongruen serta sebuah daerah lengkung yang berada di daerah tepi lingkaran yang menghubungkan dua buah lingkaran tersebut."
+                                "Tabung adalah bangun ruang yang dibatasi oleh 2 daerah lingkaran yang kongruen serta sebuah daerah lengkung yang berada di daerah tepi lingkaran yang menghubungkan 2 lingkaran tersebut."
                             </p>
                         </div>
                         <div id="tabung-3" class="tabung-content" style="display: none;" >
@@ -941,8 +971,8 @@
                             <p><b>PENJELASAN!</b></p>
                             <p>
                                 Berdasarkan gambar di atas, gambar A merupakan bangun tabung dapat dilihat dari sifat-sifat tabung yaitu: <br/>
-                                1.	Tabung memiliki 2 buah lingkaran, alas dan tutup<br/>
-                                2.	Memiliki 1 buah bidang lengkung (selimut tabung)<br/>
+                                1.	Tabung memiliki 2 lingkaran, alas dan tutup<br/>
+                                2.	Memiliki 1 bidang lengkung (selimut tabung)<br/>
                                 3.	Rusuk tabung berupa rusuk lengkung<br/>
                                 4.	Tabung tidak memiliki titik sudut<br/>
                                 Sedangkan gambar B merupakan bangun prisma segiempat.
@@ -952,7 +982,7 @@
                             <p><b>C. JARING-JARING</b></p>
                             <p>
                                 Kerjakan pertanyaan di bawah ini! <br/>
-                                Dita sedang membongkar sebuah kaleng susu dengan memisahkan 3 bagian menjadi atas, bawah, dan tengah. Bagian apa yang Dita dapat dari kaleng susu tersebut?
+                                1.	Dita sedang membongkar sebuah kaleng susu dengan memisahkan 3 bagian menjadi atas, bawah, dan tengah. Dari situ Dita mendapatkan 3 bangun datar, 2 bangun datar yang sama dan 1 bangun yang berbeda. Bangun apa yang Dita dapat dari kaleng susu tersebut?
                             </p>
                         </div>
                         <div id="tabung-6" class="tabung-content" style="display: none">
@@ -962,7 +992,7 @@
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
                             <p>
-                                Berdasarkan pertanyaan di atas, bahwa Dita mendapat bagian 2 buah lingkaran yang didapat dari tutup dan alas, dan 1 buah persegi panjang sebagai selimut dari kaleng susu tersebut.
+                                Berdasarkan pertanyaan di atas, bahwa Dita mendapat bagian 2 lingkaran yang didapat dari tutup dan alas, dan 1 persegi panjang sebagai selimut dari kaleng susu tersebut.
                             </p>
                         </div>
                         <div id="tabung-7" class="tabung-content" style="display: none">
@@ -1077,7 +1107,7 @@
                                     </div>
                                     <div class="radio">
                                         <label><input type="radio" name="1" value="b">
-                                            &nbsp;b. Bola memiliki 1 buah sisi yang berbentuk bidang lengkung dan tidak memiliki rusuk dan titik sudut.
+                                            &nbsp;b. Bola memiliki 1 sisi yang berbentuk bidang lengkung dan tidak memiliki rusuk dan titik sudut.
                                         </label>
                                     </div>
                                     <div class="radio">
@@ -1087,7 +1117,7 @@
                                     </div>
                                     <div class="radio">
                                         <label><input type="radio" name="1" value="d">
-                                            &nbsp;d. Bola memiliki 1 buah sisi yang berbentuk bidang lengkung, memiliki rusuk dan tidak titik sudut.
+                                            &nbsp;d. Bola memiliki 1 sisi yang berbentuk bidang lengkung, memiliki rusuk dan tidak titik sudut.
                                         </label>
                                     </div>
                                 </div>
@@ -1101,7 +1131,7 @@
                                 style="width: 200px">
                             <p>
                                 Sifat-sifat bola adalah: <br/>
-                                1.	Bola hanya memiliki 1 buah sisi yang berbentuk bidang lengkung, dapat dilihat pada gambar di samping.<br/>
+                                1.	Bola hanya memiliki 1 sisi yang berbentuk bidang lengkung, dapat dilihat pada gambar di samping.<br/>
                                 2.	Bola tidak memiliki rusuk dan titik sudut.
                             </p>
                         </div>

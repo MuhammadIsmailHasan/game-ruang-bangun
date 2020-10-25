@@ -716,3 +716,13 @@ sup {
   width: 100px;
 }
 
+.unbull {
+  font-size: 20px;
+  list-style-type: none;
+  padding-left: 150px;
+}
+
+.unmarg {
+  margin: 0;
+}
+

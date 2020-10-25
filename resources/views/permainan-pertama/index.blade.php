@@ -83,7 +83,7 @@
             
             let questions = [
                 {
-                    question : "<span class='text-soal'>Bangun ruang yang dibatasi oleh enam sisi yang berbentuk persegi, merupakan definisi dari bangun ...</span>",
+                    question : "<span class='text-soal'>Bangun ruang yang dibatasi oleh enam sisi berbentuk persegi yang sama besar, merupakan pengertian dari bangun ...</span>",
                     choice1: "<p class='choice-text' data-number='1'>Balok</p>",
                     choice2: "<p class='choice-text' data-number='2'>Limas</p>",
                     choice3: "<p class='choice-text' data-number='3'>Kubus</p>",
@@ -91,7 +91,7 @@
                     answer: 3
                 },
                 {
-                    question : "<span class='text-soal'>Bangun tiga dimensi yang memiliki alas dan tutup berbentuk persegi dan sisi tegak berbentuk persegi panjang, merupakan defines dari bangun ...</span>",
+                    question : "<span class='text-soal'>Bangun tiga dimensi yang memiliki alas dan tutup berbentuk persegi dan sisi tegak berbentuk persegi panjang, merupakan pengertian dari bangun ...</span>",
                     choice1: "<p class='choice-text' data-number='1'>Prisma segitiga</p>",
                     choice2: "<p class='choice-text' data-number='2'>Prisma segiempat</p>",
                     choice3: "<p class='choice-text' data-number='3'>Limas segiempat</p>",
@@ -99,7 +99,7 @@
                     answer: 2
                 },
                 {
-                    question : `<span class='text-soal'>Manakah gambar yang termasuk contoh bangun balok dalam kehidupan sehari-hari</span>`,
+                    question : `<span class='text-soal'>Gambar yang termasuk contoh bangun balok dalam kehidupan sehari-hari</span>`,
                     choice1: `<img src="{{ asset('img/soal/3-1.png') }}" data-number='1' alt="diagram jawaban" class="img-responsive custom-card-img-jawaban" align="left">`,
                     choice2: `<img src="{{ asset('img/soal/3-2.png') }}" data-number='2' alt="diagram jawaban" class="img-responsive custom-card-img-jawaban" align="left">`,
                     choice3: `<img src="{{ asset('img/soal/3-3.png') }}" data-number='3' alt="diagram jawaban" class="img-responsive custom-card-img-jawaban" align="left">`,
@@ -108,10 +108,10 @@
                 },
                 {
                     question : "<span class='text-soal'>Bangun limas adalah ...</span>",
-                    choice1: "<p class='choice-text' data-number='1'>Bangun ruang yang memiliki alas yang berbentuk segi-n dan beberapa daerah sebagai selimut yang memiliki bentuk segi-n serta tidak memiliki satu titik persekutuan.</p>",
-                    choice2: "<p class='choice-text' data-number='2'>Bangun ruang yang tidak memiliki alas yang berbentuk segi-n dan beberapa daerah sebagai selimut yang memiliki bentuk segi-n serta satu titik persekutuan.</p>",
-                    choice3: "<p class='choice-text' data-number='3'>Bangun ruang yang tidak memiliki alas dan beberapa daerah sebagai selimut yang memiliki bentuk segi-n serta satu titik persekutuan.</p>",
-                    choice4: "<p class='choice-text' data-number='4'>Bangun ruang yang memiliki alas yang berbentuk segi-n dan beberapa daerah sebagai selimut yang memiliki bentuk segi-n serta satu titik persekutuan.</p>",
+                    choice1: "<p class='choice-text' data-number='1'>Bangun ruang yang memiliki alas yang berbentuk segi banyak dan beberapa daerah sebagai selimut yang memiliki bentuk segi banyak serta tidak memiliki satu titik persekutuan.</p>",
+                    choice2: "<p class='choice-text' data-number='2'>Bangun ruang yang tidak memiliki alas yang berbentuk segi banyak dan beberapa daerah sebagai selimut yang memiliki bentuk segi banyak serta satu titik persekutuan.</p>",
+                    choice3: "<p class='choice-text' data-number='3'>Bangun ruang yang tidak memiliki alas dan beberapa daerah sebagai selimut yang memiliki bentuk segi banyak serta satu titik persekutuan.</p>",
+                    choice4: "<p class='choice-text' data-number='4'>Bangun ruang yang memiliki alas yang berbentuk segi banyak dan beberapa daerah sebagai selimut yang memiliki bentuk segi banyak serta satu titik persekutuan.</p>",
                     answer: 4
                 },
                 {
@@ -119,7 +119,7 @@
                                 <span class='img-soal'>
                                     <img src="{{ asset('img/soal/5.png') }}" alt="diagram pertanyaan" class="img-responsive custom-card-img" style="width: 300px;" align="center">
                                 </span>
-                                <p class='text-soal'>Manakah yang termasuk bangun kerucut ...</p>`,
+                                <p class='text-soal'>Berdasarkan gambar di atas, gambar yang termasuk bangun kerucut adalah ...</p>`,
                         choice1: "<p class='choice-text' data-number='1'>a, c, dan d</p>",
                         choice2: "<p class='choice-text' data-number='2'>a, b, c, dan d</p>",
                         choice3: "<p class='choice-text' data-number='3'>a, b, dan d</p>",
@@ -127,7 +127,7 @@
                         answer: 1
                 },
                 {
-                    question : "<span class='text-soal'>Bangun ruang yang dibatasi oleh dua buah daerah lingkaran yang sama besar dan sebuah daerah lengkung yang berada di daerah tepi lingkaran, merupakan definisi dari bangun ...</span>",
+                    question : "<span class='text-soal'>Bangun ruang yang dibatasi oleh dua buah daerah lingkaran yang sama besar dan sebuah daerah lengkung yang berada di tepi lingkaran, merupakan definisi dari bangun ...</span>",
                     choice1: "<p class='choice-text' data-number='1'>Bola</p>",
                     choice2: "<p class='choice-text' data-number='2'>Tabung</p>",
                     choice3: "<p class='choice-text' data-number='3'>Kerucut</p>",
@@ -135,7 +135,7 @@
                     answer: 2
                 },
                 {
-                    question : "<span class='text-soal'>Bangun yang tersusun atas tak hingga lingkaran yang memiliki jari-jari yang sama, merupakan bangun ...</span>",
+                    question : "<span class='text-soal'>Bangun yang tersusun atas banyak lingkaran yang memiliki jari-jari yang sama, merupakan bangun ...</span>",
                     choice1: "<p class='choice-text' data-number='1'>Tabung</p>",
                     choice2: "<p class='choice-text' data-number='2'>Kerucut</p>",
                     choice3: "<p class='choice-text' data-number='3'>Bola</p>",
@@ -145,7 +145,7 @@
                 {
                     question : `<span class='text-soal'>Sebuah bangun ruang memiliki ciri-ciri sebagai berikut: <br/>
                                 <span class='text-left'>
-                                    -	Memiliki 6 sisi <br/>
+                                    -	Memiliki 6 sisi yang sama besar <br/>
                                     -	Memiliki 4 pasang sisi yang berhadapan sama panjang dan sebangun <br/>
                                     -	Memiliki 12 rusuk <br/>
                                     -	Memiliki 8 titik sudut
@@ -159,12 +159,12 @@
                     answer: 2
                 },
                 {
-                    question : `<span class='text-soal'>Sebuah bangun ruang memiliki ciri-ciri sebagai berikut: <br/>
+                    question : `<span class='text-soal'>Sebuah bangun ruang mempunyai ciri sebagai berikut: <br/>
                                 <span class='text-left'>
-                                    -	Mempunyai 9 rusuk <br/>
+                                    -	Mempunyai 3 rusuk sama panjang dan 6 rusuk yang sama panjang<br/>
                                     -	Mempunyai 6 titik sudut <br/>
                                     -	Mempunyai 3 sisi berbentuk persegi panjang <br/>
-                                    -	Mempunyai 2 sisi berbentuk segitiga yang sama
+                                    -	Mempunyai 2 sisi berbentuk segitiga sama sisi
                                 </span> <br/>
                                 Bangun yang dimaksud adalah ….
                                 </span>`,
@@ -182,7 +182,7 @@
                                 <p class='text-soal'>Salah satu sifatnya adalah ….</p>`,
                     choice1: `<p class='choice-text' data-number='1'>Mempunyai 12 rusuk</p>`,
                     choice2: `<p class='choice-text' data-number='2'>Mempunyai 8 titik sudut</p>`,
-                    choice3: `<p class='choice-text' data-number='3'>Bidang sisinya sama panjang</p>`,
+                    choice3: `<p class='choice-text' data-number='3'>Mempunyai sisi yang sama besar</p>`,
                     choice4: `<p class='choice-text' data-number='4'>Mempunyai 5 bidang sisi</p>`,
                     answer: 4
                 },
@@ -257,7 +257,7 @@
                     answer: 3
                 },
                 {
-                    question : `<span class='text-soal'>Banyak sisi, rusuk, dan titik sudut kerucut adalah ...</span>`,
+                    question : `<span class='text-soal'>Banyak sisi, rusuk, dan titik sudut kerucut secara berturut- turut adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>Sisi 2, rusuk 1, dan titik sudut 1</p>`,
                     choice2: `<p class='choice-text' data-number='2'>Sisi 1, rusuk 1, dan titik sudut 1</p>`,
                     choice3: `<p class='choice-text' data-number='3'>Sisi 2, rusuk 2, dan titik sudut 1</p>`,
@@ -265,7 +265,7 @@
                     answer: 1
                 },
                 {
-                    question : `<span class='text-soal'>Model kerangka kubus akan dibuat dari kawat yang panjangnya 7,2 m. jika panjang rusuk kubus 6 cm, maka banyak kerangka kubus yang dapat dibuat adalah ...</span>`,
+                    question : `<span class='text-soal'>Model kerangka kubus akan dibuat dari kawat yang panjangnya 7,2 m. Jika panjang rusuk kubus 6 cm, maka banyak kerangka kubus yang dapat dibuat adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>8</p>`,
                     choice2: `<p class='choice-text' data-number='2'>10</p>`,
                     choice3: `<p class='choice-text' data-number='3'>12</p>`,
@@ -273,7 +273,7 @@
                     answer: 2
                 },
                 {
-                    question : `<span class='text-soal'>Tersedia kawat yang panjangnya 2,5 m. jika dengan kawat itu akan dibuat kerangka limas segiempat dengan panjang rusuk 30 cm, maka panjang kawat yang tidak terpakai adalah ...</span>`,
+                    question : `<span class='text-soal'>Tersedia kawat yang panjangnya 2,5 m. Jika dengan kawat itu akan dibuat kerangka limas segiempat dengan panjang rusuk 30 cm, maka panjang kawat yang tidak terpakai adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>10 cm</p>`,
                     choice2: `<p class='choice-text' data-number='2'>12 cm</p>`,
                     choice3: `<p class='choice-text' data-number='3'>16 cm</p>`,
@@ -281,7 +281,7 @@
                     answer: 1
                 },
                 {
-                    question : `<span class='text-soal'>Eka ingin membuat kerangka balok dari kayu dengan panjang 25 cm, lebar 10 cm, dan tinggi 10 cm. Maka panjang kayu yang diperlukan untuk membuat balok tersebut adalah ...</span>`,
+                    question : `<span class='text-soal'>Eka ingin membuat kerangka balok dari kayu dengan panjang 25 cm, lebar 10 cm, dan tinggi 10 cm. Maka panjang kayu keseluruhan yang diperlukan untuk membuat balok tersebut adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>1 m</p>`,
                     choice2: `<p class='choice-text' data-number='2'>1,2 m</p>`,
                     choice3: `<p class='choice-text' data-number='3'>1,5 m</p>`,
@@ -289,7 +289,7 @@
                     answer: 4
                 },
                 {
-                    question : `<span class='text-soal'>Panjang satu kerangka balok 1,8 m. jika balok tersebut berukuran panjang 22 cm dan lebar 14 cm, maka tinggi balok itu adalah ...</span>`,
+                    question : `<span class='text-soal'>Panjang satu kerangka balok 1,8 m. Jika balok tersebut berukuran panjang 22 cm dan lebar 14 cm, maka tinggi balok itu adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>9 cm</p>`,
                     choice2: `<p class='choice-text' data-number='2'>11 cm</p>`,
                     choice3: `<p class='choice-text' data-number='3'>14 cm</p>`,
@@ -310,7 +310,7 @@
                     answer: 3
                 },
                 {
-                    question : `<span class='text-soal'>Jika jaring-jaring kubus di bawah ini dilipat dapat membentuk kubus, maka sisi yang akan bertemu adalah</span>
+                    question : `<span class='text-soal'>Jika jaring-jaring kubus di bawah ini dilipat dapat membentuk kubus, maka sisi yang akan terakhir bertemu adalah</span>
                                 <span class='img-soal'>
                                     <img src="{{ asset('img/soal/23.png') }}" alt="diagram pertanyaan" class="img-responsive custom-card-img" style="width: 300px;" align="center">
                                 </span>`,
@@ -333,7 +333,7 @@
                     answer: 4
                 },
                 {
-                    question : `<span class='text-soal'>Manakah gambar berikut yang merupakan jaring-jaring bangun prisma segitiga ...</span>`,
+                    question : `<span class='text-soal'>Gambar berikut yang merupakan jaring-jaring bangun prisma segitiga ...</span>`,
                     choice1: `<img src="{{ asset('img/soal/25-1.png') }}" data-number='1' alt="diagram jawaban" class="img-responsive custom-card-img-jawaban" align="left">`,
                     choice2: `<img src="{{ asset('img/soal/25-2.png') }}" data-number='2' alt="diagram jawaban" class="img-responsive custom-card-img-jawaban" align="left">`,
                     choice3: `<img src="{{ asset('img/soal/25-3.png') }}" data-number='3' alt="diagram jawaban" class="img-responsive custom-card-img-jawaban" align="left">`,
@@ -341,7 +341,7 @@
                     answer: 1
                 },
                 {
-                    question : `<span class='text-soal'>Perhatikan gambar di bawah ini!</span>
+                    question : `<span class='text-soal'>Perhatikan gambar di samping ini!</span>
                                 <span class='img-soal'>
                                     <img src="{{ asset('img/soal/26.png') }}" alt="diagram pertanyaan" class="img-responsive custom-card-img" style="width: 300px;" align="center">
                                 </span>
@@ -393,7 +393,7 @@
                                 <span class='img-soal'>
                                     <img src="{{ asset('img/soal/31.png') }}" alt="diagram pertanyaan" class="img-responsive custom-card-img" style="width: 300px;" align="center">
                                 </span>
-                                <span class='text-soal'>Berapakah luas permukaan kemasan teh tersebut ...</span>`,
+                                <span class='text-soal'>Luas permukaan kemasan teh tersebut adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>682 cm<sup>2</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>782 cm<sup>2</sup></p>`,
                     choice3: `<p class='choice-text' data-number='3'>884 cm<sup>2</sup></p>`,
@@ -416,7 +416,7 @@
                                 <span class='img-soal'>
                                     <img src="{{ asset('img/soal/33.png') }}" alt="diagram pertanyaan" class="img-responsive custom-card-img" style="width: 300px;" align="center">
                                 </span>
-                                <span class='text-soal'>Pada prisma ABC.DEF, jika AC = 6 cm, AB = 8 cm, dan BE = 14 cm, maka berapakah luas permukaan bangun prisma tersebut ...</span>`,
+                                <span class='text-soal'>Pada prisma ABC.DEF, jika AC = 6 cm, AB = 8 cm, dan BE = 14 cm, maka luas permukaan bangun prisma tersebut adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>324 cm<sup>2</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>384 cm<sup>2</sup></p>`,
                     choice3: `<p class='choice-text' data-number='3'>6.768 cm<sup>2</sup></p>`,
@@ -425,8 +425,7 @@
                 },
                 {
                     question : `<span class='text-soal'>
-                                    Suatu limas segiempat beraturan sisi tegaknya terdiri atas empat segitiga sama kaki yang kongruen. 
-                                    Diketahui luas salah satu segitiga itu 135 cm<sup>2</sup> dan tinggi segitiga dari puncak limas 15 cm. berapakah luas permukaan limas segiempat tersebut 
+                                    Suatu limas segiempat beraturan sisi tegaknya terdiri atas empat segitiga sama kaki yang kongruen. Diketahui luas salah satu segitiga itu 135 cm<sup>2</sup> dan tinggi segitiga dari puncak limas 15 cm. Luas permukaan limas segiempat tersebut adalah
                                 </span>`,
                     choice1: `<p class='choice-text' data-number='1'>6.372 cm<sup>2</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>864 cm<sup>2</sup></p>`,
@@ -436,8 +435,7 @@
                 },
                 {
                     question : `<span class='text-soal'>
-                                    Sebuah topi petani berbentuk kerucut mempunyai jari-jari 6 cm dan tingginya 8 cm. 
-                                    Berapakah luas permukaan topi tersebut apabila nilai π = 3,14 Sebuah topi petani berbentuk kerucut mempunyai jari-jari 6 cm dan tingginya 8 cm. Berapakah luas permukaan topi tersebut apabila nilai π = 3,14 
+                                    Sebuah topi petani berbentuk kerucut mempunyai panjang jari-jari 6 cm dan tingginya 8 cm. Luas permukaan topi tersebut apabila nilai π = 3,14 adalah
                                 </span>`,
                     choice1: `<p class='choice-text' data-number='1'>263,76 cm<sup>2</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>301,44 cm<sup>2</sup></p>`,
@@ -447,7 +445,7 @@
                 },
                 {
                     question : `<span class='text-soal'>
-                                    Diketahui luas permukaan suatu tabung adalah 2.640 cm<sup>2</sup>. Jika jar-jari alasnya 14 cm, berapakah luas selimut tabung tersebut 
+                                    Diketahui luas permukaan suatu tabung adalah 2.640 cm<sup>2</sup>. Jika panjang jari-jari alasnya 14 cm, maka luas selimut tabung tersebut adalah
                                 </span>`,
                     choice1: `<p class='choice-text' data-number='1'>1.232 cm<sup>2</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>1.400 cm<sup>2</sup></p>`,
@@ -459,7 +457,7 @@
                     question : `<span class='text-soal'>
                                     Tangki penyimpanan gas alam cair berbentuk bola dengan jari-jari 70 m . Supaya tangki itu dapat menyimpan gas alam cair sampai -160<sup>O</sup>C tanpa membeku, lapisan luar tangki tersebut diisolasi. 
                                     Jika biaya isolasi per meter persegi adalah Rp. 100.000,00. 
-                                    Berapa besar biaya yang diperlukan untuk mengisolasi tangki tersebut ...
+                                    Maka besar biaya yang diperlukan untuk mengisolasi tangki tersebut adalah ...
                                 </span>`,
                     choice1: `<p class='choice-text' data-number='1'>4,15 miliyar rupiah</p>`,
                     choice2: `<p class='choice-text' data-number='2'>5,20 miliyar rupiah</p>`,
@@ -483,7 +481,8 @@
                     question : `<span class='text-soal'>Agus akan membuat kandang burung dari triplek seperti gambar berikut! </span>
                                 <span class='img-soal'>
                                     <img src="{{ asset('img/soal/39.png') }}" alt="diagram pertanyaan" class="img-responsive custom-card-img" style="width: 300px;" align="center">
-                                </span>`,
+                                </span>
+                                <span class='text-soal'>Luas triplek yang dibutuhkan adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>8.300 cm<sup>2</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>7.900 cm<sup>2</sup></p>`,
                     choice3: `<p class='choice-text' data-number='3'>7.300 cm<sup>2</sup></p>`,
@@ -491,7 +490,7 @@
                     answer: 3
                 },
                 {
-                    question : `<span class='text-soal'>Sebuah akuarium berbentuk kubus memiliki panjang rusuk 60 cm. jika akuarium tersebut diisi air hingga penuh, berapa liter air yang diperlukan ...</span>`,
+                    question : `<span class='text-soal'>Sebuah akuarium berbentuk kubus memiliki panjang rusuk 60 cm. Jika akuarium tersebut diisi air hingga penuh, maka liter air yang diperlukan adalah ...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>21,6 liter</p>`,
                     choice2: `<p class='choice-text' data-number='2'>36 liter</p>`,
                     choice3: `<p class='choice-text' data-number='3'>216 liter</p>`,
@@ -499,7 +498,7 @@
                     answer: 3
                 },
                 {
-                    question : `<span class='text-soal'>Sebuah bak air berbentuk balok berukuran panjang 65 cm, lebar 40 cm, dan tinggi 48 cm. bak air tersebut berisi air penuh. Sebagian air tersebut dipindahkan ke dalam bak tersebut yang berbentuk balok yang kosong berukuran panjang 55 cm, lebar 40 cm, dan tinggi 36 cm. tinggi permukaan air pada kedua bak sama. Tinggi permukaan air adalah ...</span>`,
+                    question : `<span class='text-soal'>Sebuah bak air berbentuk balok dengan panjang 65 cm, lebar 40 cm, dan tinggi 48 cm. bak air tersebut berisi air penuh. Sebagian air tersebut dipindahkan ke dalam bak tersebut yang berbentuk balok yang kosong berukuran panjang 55 cm, lebar 40 cm, dan tinggi 36 cm. Tinggi permukaan air pada kedua bak sama. Tinggi permukaan air adalah...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>28 cm</p>`,
                     choice2: `<p class='choice-text' data-number='2'>26 cm</p>`,
                     choice3: `<p class='choice-text' data-number='3'>24 cm</p>`,
@@ -529,7 +528,7 @@
                 {
                     question : `<span class='text-soal'>
                                     Sebuah kerucut mempunyai volume 27 cm<sup>3</sup>. 
-                                    Jika diamater kerucut diperbesar 3 kali dan tingginya diperbesar 2 kali, maka volume kerucut tersebut adalah 
+                                    Jika diameter kerucut diperbesar 3 kali dan tingginya diperbesar 2 kali, maka volume kerucut tersebut adalah 
                                 </span>`,
                     choice1: `<p class='choice-text' data-number='1'>468 cm<sup>3</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>450 cm<sup>3</sup></p>`,
@@ -542,7 +541,7 @@
                                 <span class='img-soal'>
                                     <img src="{{ asset('img/soal/45.png') }}" alt="diagram pertanyaan" class="img-responsive custom-card-img" style="width: 300px;" align="center">
                                 </span>
-                                <span class='text-soal'>Berapakah volume bangun tersebut adalah...</span>`,
+                                <span class='text-soal'>Berapa volume bangun tersebut adalah...</span>`,
                     choice1: `<p class='choice-text' data-number='1'>1.800 liter</p>`,
                     choice2: `<p class='choice-text' data-number='2'>2.826 liter</p>`,
                     choice3: `<p class='choice-text' data-number='3'>22.608 liter</p>`,
@@ -552,7 +551,7 @@
                 {
                     question : `<span class='text-soal'>
                                     Andi memiliki sebuah bola plastik. Bola tersebut diisi oleh udara sampai penuh. 
-                                    Volume udara yang dimasukkan di dalamnya adalah 38.808 cm<sup>3</sup>. Jari-jari bola tersebut adalah...
+                                    Volume udara yang dimasukkan di dalamnya adalah 38.808 cm<sup>3</sup>. Panjang jari-jari bola tersebut adalah...
                                 </span>`,
                     choice1: `<p class='choice-text' data-number='1'>21 cm<sup>3</sup></p>`,
                     choice2: `<p class='choice-text' data-number='2'>25 cm<sup>3</sup></p>`,

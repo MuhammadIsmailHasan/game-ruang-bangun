@@ -52,7 +52,7 @@
                                 <h3>EVALUASI</h3>
                             </div>
                         </div>
-                        <img src="{{ asset('frontend/img/portfolio/game.png') }}" class="img-responsive" alt="">
+                        <img src="{{ asset('frontend/img/portfolio/tasks.jpg') }}" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>

@@ -53,4 +53,5 @@ Route::group(['middleware' => 'auth'], function ()
     Route::resource('nilai', 'NilaiController');
     Route::resource('materi', 'MateriController');
     Route::resource('tujuan', 'TujuanController');
+    Route::get('profil-author', 'ProfilController@indexAuthor')->name('profil.author');
 });
