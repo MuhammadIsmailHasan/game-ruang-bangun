@@ -709,17 +709,17 @@
                                 style="width: 200px">
                             <p>
                                 1.	Limas memiliki sisi alas yang berbentuk segiempat, yaitu PQRS <br/>
-                                2.	Limas memiliki 4 sisi tegak yang berbentuk segitiga sama kaki yang sama besar, yaitu QRT = RST = SPT = PQT
+                                2.	Limas memiliki 4 sisi tegak yang berbentuk segitiga sama kaki yang sama besar, <br>yaitu QRT = RST = SPT = PQT
                             </p>
-                            <p>Limas Segitiga</p>
+                            <p><b>Limas Segitiga</b></p>
                             <img src="{{ asset('img/materi/44.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
                             <p>
                                 1.	Limas memiliki sisi alas yang berbentuk segitiga, yaitu ABC <br/>
-                                2.	Limas memiliki 4 sisi tegak yang berbentuk segitiga sama kaki yang sama besar, yaitu QRT = RST = SPT = PQT
+                                2.	Limas memiliki 4 sisi tegak yang berbentuk segitiga sama kaki yang sama besar, <br>yaitu QRT = RST = SPT = PQT
                             </p>
-                            <p>Limas segi-n</p>
+                            <p><b>Limas segi-n</b></p>
                             <p>
                                 4.	Limas memiliki sisi tegak yang berbentuk segitiga.
                             </p>
@@ -764,7 +764,7 @@
                                 <li>= luas ∆ ABC + luas ∆ ATB + luas ∆ ATC + luas ∆ BTC</li>
                                 <li>= luas alas + jumlah luas seluruh sisi tegaknya</li>
                             </ul>
-                        </div>=
+                        </div>
                         <div id="limas-8" class="limas-content" style="display: none">
                             <p><b>E. VOLUME</b></p>
                             <p>Perhatikan bangun kubus dan limas di bawah ini!</p>
@@ -787,15 +787,16 @@
                                 Bangun limas yang terbentuk yaitu T.ABCD, T.BCGF, T.CDHG, T.ADHE, T.ABFE, dan T.EFGH. <br/>
                                 Jika diketahui panjang rusuk kubus adalah <i>s</i> cm, maka tinggi limas adalah 1/2 <i>s</i>. Jadi limas 1/6 kali dari kubus, dapat disimpulkan volume limas adalah:
                             </p>
-                            <p>
-                                Volume Limas <br/>
-                                    = 1/6 × volume kubus <br/>
-                                    = 1/6 × s3 <br/>
-                                    = 1/6 × s2 × s => <i>s</i> merupakan panjang rusuk kubus yang berarti juga tinggi limas = 1/2 <i>s</i> <br/>
-                                    = 1/6 × s2 × 1/2 s => 1/2 s merupakan tinggi limas dan s2 luas persegi <br/>
-                                    = 1/6 × luas persegi (alas) × tinggi <br/>
-                                    = 1/6 × luas alas × t
+                            <p class="unmarg">
+                                Volume Limas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1/6 × volume kubus
                             </p>
+                            <ul class="unbull">
+                                <li>= 1/6 × s3</li>
+                                <li>= 1/6 × s2 × s => <i>s</i> merupakan panjang rusuk kubus yang berarti juga tinggi limas = 1/2 <i>s</i></li>
+                                <li>= 1/6 × s2 × 1/2 s => 1/2 s merupakan tinggi limas dan s2 luas persegi</li>
+                                <li>= 1/6 × luas persegi (alas) × tinggi</li>
+                                <li>= 1/6 × luas alas × t</li>
+                            </ul>
                         </div>
 
                         <hr style="margin: 0;">
@@ -1011,21 +1012,22 @@
                         </div>
                         <div id="tabung-8" class="tabung-content" style="display: none">
                             <p><b>PENJELASAN!</b></p>
-                            <p>Berdasarkan penjelasan sebelumnya dapat disimpulkan bahwa:</p>
-                            <p>
-                                luas selimut tabung <br/>
-                                    = panjang × lebar<br/>
-                                    = keliling lingkaran × tinggi<br/>
-                                    = 2πr × t<br/>
-                                    = 2πrt
+                            <p class="unmarg">Berdasarkan penjelasan sebelumnya dapat disimpulkan bahwa: <br>
+                                luas selimut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= panjang × lebar
                             </p>
-                            <p>
-                                Luas permukaan tabung<br/>  
-                                    = luas alas + luas tutup + luas selimut<br/>
-                                    = πr2 + πr2 + 2πrt<br/>
-                                    = 2πr2 + 2πrt<br/>
-                                    = 2πr (r + t)
+                            <ul class="unbull">
+                                <li>= keliling lingkaran × tinggi</li>
+                                <li>= 2πr × t</li>
+                                <li>= 2πrt</li>
+                            </ul>
+                            <p class="unmarg">
+                                Luas permukaan = luas alas + luas tutup + luas selimut
                             </p>
+                            <ul class="unbull">
+                                <li>= πr2 + πr2 + 2πrt</li>
+                                <li>= 2πr2 + 2πrt</li>
+                                <li>= 2πr (r + t)</li>
+                            </ul>
                         </div>
                         <div id="tabung-9" class="tabung-content" style="display: none">
                             <p><b>E. VOLUME</b></p>
@@ -1046,16 +1048,20 @@
                             <p>
                                 Berdasarkan pertanyaan sebelumnya bahwa jika kue ulang tahun tersebut di potong menjadi 12 bagian dan disusun memanjang akan membentuk bangun balok, seperti gambar di samping.
                             </p>
-                            <p>
-                                Dengan demikian, volume tabung = volume balok. Dengan demikian, dapat disimpulkan bahwa: <br/>
-                                Volume balok <br/>
-                                    = panjang × lebar × tinggi<br/>
-                                    = πr × r × t<br/>
-                                    = πr2 × t<br/>
-                                Dikarenakan volume tabung <br/>
-                                    = volume balok<br/>
-                                    = πr2 × t
+                            <p class="unmarg">
+                                Dengan demikian, volume tabung = volume balok. Dengan demikian, dapat disimpulkan bahwa: <br/> 
+                                Volume balok &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= panjang × lebar × tinggi
                             </p>
+                            <ul class="unbull">
+                                <li>= πr × r × t</li>
+                                <li>= πr2 × t</li>
+                            </ul>
+                            <p class="unmarg">
+                                Dikarenakan volume tabung = volume balok
+                            </p>
+                            <ul class="unbull" style="padding-left: 250px">
+                                <li>= πr2 × t</li>
+                            </ul>
                         </div>
 
                         <hr style="margin: 0;">
@@ -1188,12 +1194,13 @@
                             <p>
                                 Dengan membagi bola menjadi 4 bagian sama besar, kemudian luas permukaan 4 bagian bola tersebut dikupas bagian selimut dan disusun pada keempat lingkatan tersebut, hasil dari kupasan 4 bagian bola memenuhi 4 lingkaran, seperti percobaan di atas.
                             </p>
-                            <p>
+                            <p class="unmarg">
                                 Dapat disimpulkan bahwa luas permukaan bola adalah:<br/>
-                                Luas permukaan bola <br/>
-                                    = 4 × luas lingkaran <br/>
-                                    = 4 × πr2
+                                Luas permukaan bola = 4 × luas lingkaran 
                             </p>
+                            <ul class="unbull" style="padding-left: 190px">
+                                <li>= 4 × πr2</li>
+                            </ul>
                         </div>
                         <div id="bola-9" class="bola-content" style="display: none">
                             <p><b>E. VOLUME</b></p>
@@ -1239,23 +1246,25 @@
                             <img src="{{ asset('img/materi/710.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
-                            <p>
-                                volume setengah bola     
-                                    = 1/3 × volume tabung
-                                    = 1/3 × 2πr3  
-                                    = 2/3 × πr3
+                            <p class="unmarg">
+                                volume setengah bola = 1/3 × volume tabung  
                             </p>
+                            <ul class="unbull" style="padding-left: 190px">
+                                <li>= 1/3 × 2πr3</li>
+                                <li>= 2/3 × πr3</li>
+                            </ul>
                             <p>Bagaimana dengan volume satu bola?</p>
                             <img src="{{ asset('img/materi/711.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
-                            <p>
+                            <p class="unmarg">
                                 Volume bola didapatkan dari: <br/>
-                                volume volume    
-                                    = 2 × setengah bola
-                                    = 2 × (2/3 × πr3)
-                                    = 4/3 × πr3
+                                volume volume = 2 × setengah bola
                             </p>
+                            <ul class="unbull" style="padding-left: 140px">
+                                <li>= 2 × (2/3 × πr3)</li>
+                                <li>= 4/3 × πr3</li>
+                            </ul>
                         </div>
 
 
