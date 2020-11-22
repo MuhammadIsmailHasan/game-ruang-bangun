@@ -69,6 +69,10 @@
                         <a href="{{ route('tujuan.index') }}">TUJUAN</a>
                     </li>
 
+                    <li class="page-scroll">
+                        <a href="{{ route('petunjuk.index') }}">PETUNJUK</a>
+                    </li>
+
                     @can('permainan_read')
                         <li class="page-scroll">
                             <a href={{ route('permainan.index') }}>EVALUASI</a>
