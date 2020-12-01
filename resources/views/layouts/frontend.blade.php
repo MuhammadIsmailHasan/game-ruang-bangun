@@ -65,12 +65,12 @@
                         <a href="{{ route('home') }}">MENU</a>
                     </li>
 
-                    <li class="page-scroll">
+                    <li class="page-scroll" id="tujuan">
                         <a href="{{ route('tujuan.index') }}">TUJUAN</a>
                     </li>
 
                     <li class="page-scroll">
-                        <a href="{{ route('petunjuk.index') }}">PETUNJUK</a>
+                        <a href={{ route('materi.index') }}>MATERI</a>
                     </li>
 
                     @can('permainan_read')
@@ -104,7 +104,7 @@
                     @endcan
 
                     <li class="page-scroll">
-                        <a href={{ route('profil.author') }}>PROFIL AUTHOR</a>
+                        <a href={{ route('profil.author') }}>PROFIL PENGEMBANG</a>
                     </li>
 
                     <li class="page-scroll">
@@ -200,6 +200,7 @@
     
     {{-- Custom JS --}}
     <script src="{{ asset('js/custom-app.js') }}"></script>
+    
 
     <script>
         $('#logout').click(function (e) { 

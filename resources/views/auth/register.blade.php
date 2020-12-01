@@ -19,11 +19,8 @@
 			<div class="form-right">
 				<div class="tab">
 					<div class="tab-inner">
-						<button class="tablinks" onclick="openCity(event, 'sign-up')" id="defaultOpen">Biodata</button>
+						{{-- <button class="tablinks" onclick="openCity(event, 'sign-up')" id="defaultOpen">Biodata</button> --}}
 					</div>
-					{{-- <div class="tab-inner">
-						<button class="tablinks" onclick="openCity(event, 'sign-in')">Masuk</button>
-					</div> --}}
 				</div>
                 <form class="form-detail" action="{{ route('register') }}" method="post">
                     @csrf
@@ -55,38 +52,10 @@
 							</label>
 						</div>
 						<div class="form-row-last">
-							<input type="submit" class="register">
+							<input type="submit" class="register" value="MASUK">
 						</div>
 					</div>
 				</form>
-                {{-- <form class="form-detail" action="{{ route('login') }}" method="post">
-                    @csrf
-					<div class="tabcontent" id="sign-in">
-						<div class="form-row">
-							<label class="form-row-inner">
-								<input type="text" name="username" id="username" class="input-text" required>
-								<span class="label">Username</span>
-                                <span class="border"></span>
-							</label>
-						</div>
-						<div class="form-row">
-							<label class="form-row-inner">
-                                <span class="border"></span>
-                                <input type="password" name="password" id="password" class="input-text" required>
-								<span class="label">Kata Sandi</span>
-                            </label>
-                            
-                            @error('error')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-						</div>
-						<div class="form-row-last">
-							<input type="submit" class="register">
-						</div>
-					</div>
-				</form> --}}
 			</div>
 		</div>
 	</div>

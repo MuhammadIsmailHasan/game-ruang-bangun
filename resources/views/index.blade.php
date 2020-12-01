@@ -7,7 +7,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="{{ asset('frontend/img/profile.png') }}" alt="">
+                    <img class="img-responsive" src="{{ asset('frontend/img/profile-2.png') }}" 
+                    alt="profile-foto" width="256px;">
                     <div class="intro-text">
                         <span class="name">SELAMAT DATANG</span>
                         <hr class="star-light">
@@ -59,56 +60,4 @@
         </div>
     </section>
 
-@endsection
-
-@section('js')
-    {{-- <script type="text/javascript">
-        $(document).ready(function() {
-            $('#ronde_pertama').click(function (e) { 
-                e.preventDefault();
-                const href = $(this).attr('href');
-
-                if ("{{ Auth()->user()->status_materi }}" == 0) {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'GAGAL MEMULAI RONDE 1',
-                        text: 'Silahkan Membaca dan Selesaikan Materi Terlebih Dahulu',
-                        });
-                } else {
-                    document.location.href = href;
-                }
-            });
-
-            $('#ronde_kedua').click(function (e) { 
-                e.preventDefault();
-                const href = $(this).attr('href');
-
-                if ("{{ Auth()->user()->status_ronde_1 }}" == 0) {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'GAGAL MEMULAI RONDE 2',
-                        text: 'Silahkan Selesaikan Ronde 1 Terlebih Dahulu',
-                        });
-                } else {
-                    document.location.href = href;
-                }
-            });
-
-            $('#menu_angket').click(function (e) { 
-                e.preventDefault();
-                const href = $(this).attr('href');
-
-                if ("{{ Auth()->user()->status_ronde_2 }}" == 0) {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'GAGAL MEMULAI ANGKET RESPON',
-                        text: 'Silahkan Selesaikan Ronde 2 Terlebih Dahulu',
-                        });
-                } else {
-                    document.location.href = href;
-                }
-            });
-
-        });
-    </script> --}}
 @endsection

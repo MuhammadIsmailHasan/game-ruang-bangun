@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('css')
+    <link href="{{ asset('introjs/minified/introjs.min.css') }}" rel="stylesheet">
+@endsection
+
 @section('content')
     <div class="container" style="padding: 100px 30px 30px 30px;">
         <div class="row">
@@ -51,11 +55,11 @@
                             <img src="{{ asset('img/materi/11.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 600px">
-                            <p>Dari gambar di atas, pilahlah gambar mana yang termasuk ke dalam kubus! <br/>
+                            <p>Dari gambar di atas, pilahlah gambar mana yang termasuk kubus! <br/>
                                 Apa perbedaan dari bangun yang termasuk kubus dan yang tidak termasuk kubus?</p>
                         </div>
                         <div id="kubus-2" class="kubus-content" style="display: none;" >
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <ul class="ul-materi">
                                 <li>Berdasarkan pertanyaan di atas, gambar ayang termasuk ke dalam kubus adalah gambar C, F, G, dan H. Lalu apa perbedaan dari gambar yang termasuk kubus dan yang tidak termasuk kubus? Perbedaannya adalah pada bentuk sisinya, gambar yang termasuk kubus memiliki sisi yang berbentuk persegi, sedangkan yang tidak termasuk kubus memiliki sisi yang berbentuk persegi panjang.</li>
                                 <li>Jadi dapat disimpulkan bahwa pengertian kubus adalah bangun 3 dimensi yang dibatasi oleh 6 sisi yang berbentuk persegi.</li>
@@ -67,7 +71,8 @@
                             <div class="latihan">
                                 <div class="soal">
                                     <p>
-                                        1.	Ana memiliki seorang adik yang akan berulang tahun. Ia membuatkan sebuah cake dan melapisi semua bagian cake tersebut dengan cream coklat karena adik Ana sangat menyukai coklat. Bagian mana saja yang akan Ana lapisi dengan coklat
+                                        1.	Ana memiliki seorang adik yang akan berulang tahun. 
+                                        Ia membuatkan sebuah kue tar yang berbentuk kubus dan melapisi semua bagian kue tar tersebut dengan cream coklat karena adik Ana sangat menyukai coklat. Bagian mana saja yang akan Ana lapisi dengan coklat?
                                     </p>
                                 </div>
                                 <div class="pilihan radio-group" data-jawaban="d">
@@ -98,6 +103,9 @@
                                     <p>
                                         2. Adi akan membuat prakarya yang berbentuk kerangka kubus dengan menggunakan bahan bambu. Lalu bambu tersebut dipotong-potong menjadi beberapa bagian. Berapa potong bambu yang dibutuhkan untuk membentuk kerangka kubus?
                                     </p>
+                                    <img src="{{ asset('img/materi/11-1.jpg') }}" alt="diagram 1" 
+                                        class="img-responsive img-bordered"
+                                        style="width: 300px">
                                 </div>
                                 <div class="pilihan radio-group" data-jawaban="d">
                                     <div class="radio">
@@ -125,7 +133,7 @@
                             <div class="latihan">
                                 <div class="soal">
                                     <p>
-                                        3.	Seorang fotografer akan melakukan pemotretan di sebuah ruangan yang berbentuk kubus. Agar pemotretan berjalan dengan baik, maka ia membutuhkan penerangan yang cukup. Lalu ia menaruh lampu disetiap sudut ruang bagian atas tersebut. Berapa lampu yang dibutuhkan untuk menerangi ruangan tersebut?
+                                        3.	Seorang fotografer akan melakukan pemotretan di sebuah ruangan yang berbentuk kubus. Agar pemotretan berjalan dengan baik, maka ia membutuhkan penerangan yang cukup. Lalu ia menaruh lampu disetiap titik sudut ruang bagian atas tersebut. Berapa lampu yang dibutuhkan untuk mengisi titik sudut bagian atas ruangan tersebut?
                                     </p>
                                 </div>
                                 <div class="pilihan radio-group" data-jawaban="a">
@@ -153,7 +161,7 @@
                             </div>
                         </div>
                         <div id="kubus-4" class="kubus-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/12.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -162,9 +170,9 @@
                                 "Kubus adalah bangun ruang tiga dimensi yang dibatasi oleh 6 sisi yang kongruen berbentuk persegi."
                             </p>
                             <p>Sifat-sifat kubus: <br/>
-                                1.	Memiliki 6 sisi yang sama besar: ABCD = EFGH = ABFE = CDGH = BCGF = ADHE.<br/>
+                                1.	Memiliki 6 sisi yang sama besar, yaitu pada sisi ABCD; EFGH; ABFE; DCGH; BCGF; ADHE.<br/>
                                 2.	Memiliki 12 rusuk yang sama panjang: AB = BC = CD = AD = EF = FG = GH = HE = EA = HD = FB = GC.<br/>
-                                3.	Memiliki 8 buah titik sudut yang sama besar, yaitu pada titik sudut A = B = C = D = E = F = G = H.
+                                3.  Memiliki 8 buah titik sudut yang sama besar, yaitu pada titik sudut ∠A; ∠B;  ∠C; ∠D; ∠E; ∠F; ∠G; ∠ H.
                             </p>
                         </div>
                         <div id="kubus-5" class="kubus-content" style="display: none">
@@ -182,7 +190,7 @@
                             <p>Berdasarkan jaring-jaring di atas, apa yang dapat kalian simpulkan?</p>
                         </div>
                         <div id="kubus-6" class="kubus-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <ul class="ul-materi">
                                 <li>
                                     Berdasarkan jaring-jaring di atas yang termasuk jaring-jaring kubus adalah b, d, dan g. Jaring-jaring a dan e merupakan jaring-jaring yang apabila disusun tidak dapat membentuk kubus, ada bagian yang bertumpuk. Sedangkan jaring-jaring c dan h merupakan jaring-jaring balok.
@@ -206,7 +214,7 @@
                             </p>
                         </div>
                         <div id="kubus-8" class="kubus-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p class="unmarg">
                                 Berdasarkan pertanyaan di atas, jika kubus memiliki 6 sisi sama besar yang berbentuk persegi, dan luas persegi adalah panjang sisi × panjang sisi, maka luas permukaan kubus adalah sebagai berikut:<br>
                                 Luas permukaan	= 6 × luas persegi  
@@ -230,7 +238,7 @@
                             </p>
                         </div>
                         <div id="kubus-10" class="kubus-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>
                                 Cara menentukan volume pada kubus dapat menggunakan satu kubus satuan yang dijadikan acuan untuk kubus yang lain. Proses ini digambarkan pada gambar di bawah ini. Coba perhatikan dengan seksama!
                             </p>
@@ -299,7 +307,7 @@
                                 Apa perbedaan dari bangun yang termasuk kubus dan yang tidak termasuk kubus?</p>
                         </div>
                         <div id="balok-2" class="balok-content" style="display: none;" >
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <ul class="ul-materi">
                                 <li>Berdasarkan pertanyaan di atas, gambar ayang termasuk ke dalam balok adalah gambar a, b, c, e, dan f. Lalu apa perbedaan dari gambar yang termasuk balok dan yang tidak termasuk balok? Perbedaannya adalah pada bentuk sisinya, gambar yang termasuk balok memiliki sisi yang berbentuk persegi panjang, sedangkan yang tidak termasuk balok memiliki sisi yang berbentuk persegi.</li>
                                 <li>Jadi dapat disimpulkan bahwa balok adalah bangun 3 dimensi yang memiliki sepasang bangun persegi yang saling berhadapan dan dua pasang bangun persegi panjang.</li>
@@ -397,7 +405,7 @@
                             </div>
                         </div>
                         <div id="balok-4" class="balok-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/24.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -408,7 +416,7 @@
                             <p>Sifat-sifat balok: <br/>
                                 1.	Memiliki sisi yang berhadapan sama besar: ABCD = EFGH, ABFE = CDGH, BCGF = ADHE. <br>
                                 2.	Memiliki 12 rusuk yang sama panjang: AB = CD = EF = GH; BF = AE = CG = DH; BC = GF = AD = HE. <br>
-                                3.	Memiliki 8 titik sudut yang sama besar: p = q = r = s = t = u = v = w.
+                                3.	Memiliki 8 buah titik sudut yang sama besar: ∠p; ∠q; ∠r; ∠s; ∠t; ∠u; ∠v; ∠w.
                             </p>
                         </div>
                         <div id="balok-5" class="balok-content" style="display: none">
@@ -427,7 +435,7 @@
                             <p>Berdasarkan jaring-jaring di atas, apa yang dapat kalian simpulkan?</p>
                         </div>
                         <div id="balok-6" class="balok-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <ul class="ul-materi">
                                 <li>Berdasarkan jaring-jaring di atas yang termasuk jaring-jaring balok adalah b, c, g, dan h. Jaring-jaring a, d dan f merupakan jaring-jaring yang bukan balok. Sedangkan jaring-jaring e merupakan jaring-jaring balok, namun ada bagian sisi yang tidak sesuai.</li>
                                 <li>Jadi dapat disimpulkan bahwa jaring-jaring balok memiliki 6 buah bangun, 2 buah bangun persegi dan 4 buah bangun persegi panjang yang saling berhubungan.</li>
@@ -444,7 +452,7 @@
                             </p>
                         </div>
                         <div id="balok-8" class="balok-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Balok memiliki 3 pasang sisi, yaitu sisi atas = sisi bawah, sisi depan = sisi belakang, dan sisi kiri = sisi kanan.</p> 
                             <img src="{{ asset('img/materi/27.jpg') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -478,7 +486,7 @@
                             </p>
                         </div>
                         <div id="balok-10" class="balok-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>
                                 Cara menentukan volume pada balok dapat menggunakan satu balok satuan yang dijadikan acuan untuk balok yang lain. Proses ini digambarkan pada gambar di bawah ini. Coba perhatikan dengan seksama!
                             </p>
@@ -524,7 +532,7 @@
                             </p>
                         </div>
                         <div id="prisma-2" class="prisma-content" style="display: none;" >
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>
                                 Perbedaan bangun-bangun di atas yaitu pada alas dan tutup. Bangun-bangun di atas semua termasuk ke dalam bangun prisma. Jadi dapat disimpulkan bangun prisma adalah bangun 3 dimensi yang memiliki alas dan tutup yang berbentuk segi-n dan sisi-sisi tegak yang berbentuk persegi atau persegi panjang.
                             </p>
@@ -621,7 +629,7 @@
                             </div>
                         </div>
                         <div id="prisma-4" class="prisma-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <img src="{{ asset('img/materi/33.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
@@ -660,7 +668,7 @@
                             </p>
                         </div>
                         <div id="prisma-6" class="prisma-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <ul class="ul-materi">
                                 <li>Gambar di atas yang termasuk jaring-jaring prisma adalah a, d, dan g. Sedangkan gambar yang lain bukan merupakan jaring-jaring prisma.</li>
                                 <li>
@@ -707,7 +715,7 @@
                             </p>
                         </div>
                         <div id="prisma-10" class="prisma-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <img src="{{ asset('img/materi/36.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 400px">
@@ -752,7 +760,7 @@
                             </p>
                         </div>
                         <div id="limas-2" class="limas-content" style="display: none;" >
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Berdasarkan gambar di atas dapat disimpulkan bahwa bangun limas merupakan sebuah bangun yang mempunyai alas dan beberapa daerah selimut yang memiliki bentuk segi-banyak serta satu titik persekutuan.</p>
                         </div>
                         <div id="limas-3" class="limas-content" style="display: none;" >
@@ -769,7 +777,7 @@
                             </p>
                         </div>
                         <div id="limas-4" class="limas-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Bangun limas memiliki bermacam-macam bentuk, antara lain limas segiempat, limas segitiga, dan limas segibanyak (seg-n). Berikut sifat-sifat dari macam bentuk limas:</p>
                             <p>Limas Segiempat</p>
                             <img src="{{ asset('img/materi/43.png') }}" alt="diagram 1" 
@@ -812,7 +820,7 @@
                             </p>
                         </div>
                         <div id="limas-6" class="limas-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <ul class="ul-materi">
                                 <li>
                                     Gambar di atas yang termasuk jaring-jaring limas adalah b, e, dan f. Sedangkan gambar yang lain bukan merupakan jaring-jaring limas.
@@ -837,7 +845,7 @@
                             </p>
                         </div>
                         <div id="limas-8" class="limas-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p class="unmarg">
                                 Bangun limas memiliki bagian alas ABC dan bidang tegak ATB, ATC, dan BTC. Dengan demikian, luas permukaan dapat ditulis sebagai berikut: <br>
                                 Luas permukaan 	= luas I + luas II + luas III + luas IV
@@ -859,7 +867,7 @@
                             </p>
                         </div>
                         <div id="limas-10" class="limas-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>
                                 Jika bangun limas dimasukkan ke dalam bangun kubus dan titik T dihubungkan ke semua titik sudut kubus, maka akan terbentuk 6 limas segiempat yang kongruen, seperti gambar di bawah ini:
                             </p>
@@ -914,7 +922,7 @@
                             </p>
                         </div>
                         <div id="kerucut-2" class="kerucut-content" style="display: none;" >
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <ul class="ul-materi">
                                 <li>
                                     Berdasarkan gambar-gambar di atas yang termasuk bangun kerucut adalah gambar a, b, dan d. Sedangkan gambar c adalah gambar yang memiliki bentuk limas segiempat. 
@@ -935,7 +943,7 @@
                             </p>
                         </div>
                         <div id="kerucut-4" class="kerucut-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/53.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -958,7 +966,7 @@
                             </p>
                         </div>
                         <div id="kerucut-6" class="kerucut-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah!</p>
                             <img src="{{ asset('img/materi/54.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -983,7 +991,7 @@
                             </p>
                         </div>
                         <div id="kerucut-8" class="kerucut-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <img src="{{ asset('img/materi/55.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 400px">
@@ -1004,7 +1012,7 @@
                             </p>
                         </div>
                         <div id="kerucut-10" class="kerucut-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar berikut ini!</p>
                             <img src="{{ asset('img/materi/57.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -1057,7 +1065,7 @@
                             </p>
                         </div>
                         <div id="tabung-2" class="tabung-content" style="display: none;" >
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/62.jpg') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -1078,7 +1086,7 @@
                             </p>
                         </div>
                         <div id="tabung-4" class="tabung-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <img src="{{ asset('img/materi/63-0.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
                                 style="width: 200px">
@@ -1099,7 +1107,7 @@
                             </p>
                         </div>
                         <div id="tabung-6" class="tabung-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah!</p>
                             <img src="{{ asset('img/materi/64.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -1123,7 +1131,7 @@
                             </p>
                         </div>
                         <div id="tabung-8" class="tabung-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p class="unmarg">Berdasarkan penjelasan sebelumnya dapat disimpulkan bahwa: <br>
                                 luas selimut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= panjang × lebar
                             </p>
@@ -1152,7 +1160,7 @@
                             </p>
                         </div>
                         <div id="tabung-10" class="kerucut-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar berikut ini!</p>
                             <img src="{{ asset('img/materi/67.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -1204,7 +1212,7 @@
                             <p>Berdasarkan gambar bola-bola di atas, manakah yang termasuk bangun bola?</p>
                         </div>
                         <div id="bola-2" class="bola-content" style="display: none;" >
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>
                                 Berdasarkan gambar di atas yang termasuk bangun bola adalah gambar a, b, dan c, karena definisi bola berikut: <br/>
                                 "Bola adalah bangun ruang tiga dimensi yang terbentuk dari tak hingga lingkaran yang memiliki jari-jari sama dan berpusat pada satu titik yang sama."
@@ -1242,7 +1250,7 @@
                             </div>
                         </div>
                         <div id="bola-4" class="bola-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/72.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -1265,7 +1273,7 @@
                                 </p>
                             </div>
                             <div id="bola-6" class="bola-content" style="display: none">
-                                <p><b>PENJELASAN!</b></p>
+                                <p><b>PENJELASAN</b></p>
                                 <p>Perhatikan gambar di bawah ini!</p>
                                 <img src="{{ asset('img/materi/74.png') }}" alt="diagram 1" 
                                     class="img-responsive img-bordered"
@@ -1289,7 +1297,7 @@
                             </p>
                         </div>
                         <div id="bola-8" class="bola-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/76.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -1337,7 +1345,7 @@
                             </p>
                         </div>
                         <div id="bola-10" class="bola-content" style="display: none">
-                            <p><b>PENJELASAN!</b></p>
+                            <p><b>PENJELASAN</b></p>
                             <p>Perhatikan gambar di bawah ini!</p>
                             <img src="{{ asset('img/materi/78.png') }}" alt="diagram 1" 
                                 class="img-responsive img-bordered"
@@ -1408,12 +1416,12 @@
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h3 style="text-align: center; margin: 10px;">Bacalah petunjuk berikut sebelum belajar dengan media pembelajaran interaktif web ini!</h3>
+            <h3 style="text-align: center; margin: 10px;">Hal yang perlu dipersiapkan sebelum belajar dengan media pembelajaran interaktif web ini!</h3>
             <hr>
             <p style="padding: 15px;">
                 Pada setiap <i>slide</i> terdapat pertanyaan-pertanyaan yang harus dijawab oleh siswa. 
-                Sebelumnya guru menyuruh siswa untuk menyiapkan buku tugas untuk mata pelajaran matematika 
-                kepada siswa. Pertanyaan-pertanyaan tersebut dapat siswa jawab di buku tugas tersebut. 
+                Sebelum masuk materi siapkan buku tugas terlebih dahulu. 
+                Pertanyaan-pertanyaan tersebut dapat siswa jawab di buku tugas tersebut.
             </p>
         </div>
     </div>
@@ -1421,8 +1429,19 @@
 @endsection
 
 @section('js')
+    {{-- Intro JS --}}
+    <script src="{{ asset('introjs/minified/intro.min.js') }}"></script>
     <script>
         $(document).ready(function () {
+            introJs().setOptions({
+                steps: [{
+                    intro: "<h3 style='text-align: center;'>Selamat datang {{ Auth::user()->name }}, selamat belajar</h3>"
+                }, {
+                    element: document.querySelector('#tujuan'),
+                    intro: "Sebelum masuk ke materi, alangkah baiknya bacalah tujuan terlebih dahulu"
+                }]
+            }).start();
+
             // MODAL //
             setTimeout(() => {
                 $('#modal_totorial').css('display', 'block');

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center" style="margin-top: 20px;">
-                    <h2>PROFIL AUTHOR</h2>
+                    <h2>PROFIL PENGEMBANG</h2>
                     <hr class="star-primary">
                 </div>
             </div>
